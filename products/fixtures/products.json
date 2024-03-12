@@ -1,0 +1,522 @@
+[
+    {
+       "pk":1,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5001340155",
+          "name":"Arsenal Home Adult Jersey",
+          "description":"Crafted from breathable recycled polyester, it features an embroidered Club crest, mesh side panels and moisture-absorbing AEROREADY technology for all-day everyday ease, the Arsenal way. This home shirt is made with recycled materials as part of our ambition to help end plastic waste.",
+          "price":58.99,
+          "category":6,
+          "rating":4.6,
+          "image":"arsenal_jersey-home-adult.avif"
+       }
+    },
+    {
+       "pk":2,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5001600425",
+          "name":"Manchester United Home Adult Jersey",
+          "description":"The Man Utd home shirt by adidas features a traditional red base, trimmed with black details for an ultra-modern look",
+          "price":58.99,
+          "category":4,
+          "rating":4.6,
+          "image":"manutd_jersey-home-adult.avif"
+       }
+    },
+    {
+       "pk":3,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5001730010",
+          "name":"Chelsea Away Adult Jersey",
+          "description":"The Nike Chelsea Home Jersey 2023 2024 reminisces on the glory season of 1997/98. Expertly produced from a lightweight polyester with AEROREADY technology to keep you cool and dry as you show your support, the solid blue colourway has been a team favourite since the club's early days.",
+          "price":58.99,
+          "category":2,
+          "rating":4.7,
+          "image":"chelsea_jersey-away-adult.avif"
+       }
+    },
+    {
+       "pk":4,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5001890157",
+          "name":"Newcastle United Away Adult Jersey",
+          "description":"Our '23/'24 Home Short is made with Magpie legends in mind. The bold black design is held together by blue drawcords matching the detail on the woven club crest to the right thigh for a look that's both modern and classic to represent the new era of NUFC.",
+          "price":58.99,
+          "category":7,
+          "rating":3.0,
+          "image":"newcastle_jersey-away-adult.avif"
+       }
+    },
+    {
+       "pk":5,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002111605",
+          "name":"Everton Home Adult Jersey",
+          "description":"Embossed in the jersey is a unique geometric pattern inspired by Prince Rupert's Tower - which is also the centerpiece of Everton's crest displayed on the chest. On the chest you also find the hummel logo while white chevrons decorate the shoulders.",
+          "price":58.99,
+          "category":7,
+          "rating":5.0,
+          "image":"everton_jersey-home-adult.avif"
+       }
+    },
+    {
+       "pk":6,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002260206",
+          "name":"Manchester City Junior Kit",
+          "description":"Engineered with the latest technology to ensure you remain comfortable and dry while playing. Engraved with the classic logo to support the team in style, the kit is developed by leading brand Puma.",
+          "price":30.99,
+          "category":9,
+          "rating":4.7,
+          "image":"mancity_kit-home-child.avif"
+       }
+    },
+    {
+       "pk":7,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002440521",
+          "name":"Liverpool Junior Kit",
+          "description":"Breathable, sweat-wicking Dri-FIT fabrics dry fast, so they stay cool and focused. Training in the cold? Snugly fitted drill tops lock in heat to protect their muscles.",
+          "price":30.99,
+          "category":4,
+          "rating":4.4,
+          "image":"liverpool_kit-home-child.avif"
+       }
+    },
+    {
+       "pk":8,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002601115",
+          "name":"Spurs Junior Kit",
+          "description":"The shirt incorporates Nike's revolutionary DriFIT fabric technology, which wicks sweat and moisture away from your skin for faster evaporation.",
+          "price":30.99,
+          "category":7,
+          "rating":4.5,
+          "image":"spurs_kit-home-child.avif"
+       }
+    },
+    {
+       "pk":9,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002690715",
+          "name":"West Ham Junior Kit",
+          "description":"Crafted from a high tech polyester for excellent air flow and ease of movement, the team badge and Umbro logo at the chest completes the sporty piece.",
+          "price":30.99,
+          "category":2,
+          "rating":4.7,
+          "image":"westham_kit-away-child.avif"
+       }
+    },
+    {
+       "pk":10,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002701115",
+          "name":"Brighton Junior Kit",
+          "description":"The Brighton Shirt is a classic, striped sports shirt with a plain back for printing. We have paid great attention to detail: the luxury tape in the side, the cuffs made of fine rib material and the small piping on the shoulders.",
+          "price":30.99,
+          "category":7,
+          "rating":4.4,
+          "image":"brighton_kit-home-child.avif"
+       }
+    },
+    {
+       "pk":11,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002761055",
+          "name":"Crystal Palace Junior Socks",
+          "description":"A combination of nylon, acrylic, and elastic. These materials allow the sock to offer compression, arch support, and ribbing.",
+          "price":9.99,
+          "category":9,
+          "rating":3.0,
+          "image":"crystalpalace_socks-home-child.avif"
+       }
+    },
+    {
+       "pk":12,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002820069",
+          "name":"Sheffield United Junior Socks",
+          "description":"A combination of nylon, acrylic, and elastic. These materials allow the sock to offer compression, arch support, and ribbing.",
+          "price":9.99,
+          "category":1,
+          "rating":4.6,
+          "image":"sheffieldunited_socks-home-child.avif"
+       }
+    },
+    {
+       "pk":13,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002820147",
+          "name":"Fulham Adult Socks",
+          "description":"A combination of nylon, acrylic, and elastic. These materials allow the sock to offer compression, arch support, and ribbing.",
+          "price":9.99,
+          "category":9,
+          "rating":3.2,
+          "image":"fulham_socks-away-adult.avif"
+       }
+    },
+    {
+       "pk":14,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002910572",
+          "name":"Burnley Adult Socks",
+          "description":"A combination of nylon, acrylic, and elastic. These materials allow the sock to offer compression, arch support, and ribbing.",
+          "price":9.99,
+          "category":5,
+          "rating":4.7,
+          "image":"burnley_socks-home-adult.avif"
+       }
+    },
+    {
+       "pk":15,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002990740",
+          "name":"Wolves Adult Goalkeeper Socks",
+          "description":"A combination of nylon, acrylic, and elastic. These materials allow the sock to offer compression, arch support, and ribbing.",
+          "price":9.99,
+          "category":5,
+          "rating":4.8,
+          "image":"wolves_goalkeeper-socks-away-adult.avif"
+       }
+    },
+    {
+       "pk":16,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003050248",
+          "name":"Aston Villa Adult Shorts",
+          "description":"Made from technical polyester, this pair feature an elasticated waistband, tonal stitching, contrasting trims and straight hems. Adorned with the club's home colours, the Villan's signature crest and the Castore branding are proudly displayed on the leg, elevating the design.",
+          "price":19.99,
+          "category":6,
+          "rating":4.4,
+          "image":"astonvilla_shorts-home-adult.avif"
+       }
+    },
+    {
+       "pk":17,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003070787",
+          "name":"Brentford Junior Shorts",
+          "description":"Knitted pique short with elasticated waistband and internal drawcord for secure fit. Featuring; two colour side panel, stacked embroidered diamond and turret applique club crest.",
+          "price":19.99,
+          "category":5,
+          "rating":4.4,
+          "image":"brentford_shorts-home-child.avif"
+       }
+    },
+    {
+       "pk":18,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003090182",
+          "name":"Nottingham Forest Junior Shorts",
+          "description":"Designed in collaboration with Adidas, the iconic 3 Stripes run down the side of the shorts in a bold red colour along with red trim at the bottom of the shorts and red embroidery to complement the classic white design.",
+          "price":19.99,
+          "category":2,
+          "rating":4.8,
+          "image":"nottinghamforest_shorts-home-child.avif"
+       }
+    },
+    {
+       "pk":19,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003090186",
+          "name":"Bournemouth Adult Shorts",
+          "description":"Made from technical moisture wicking fabric to maintain comfort and coolness, and feature an elasticated waist with drawstring for a secure fit, and contrasting trim on the base of the leg for added style.",
+          "price":19.99,
+          "category":2,
+          "rating":5.0,
+          "image":"bournemouth_shorts-away-adult.avif"
+       }
+    },
+    {
+       "pk":20,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003161326",
+          "name":"Luton Town Adult Shorts",
+          "description":"The Horizon shorts have a soft grey marl cotton finish, with a warm lining, and are slim fitting. With two hand pockets and a classic elasticated cuffed drawstring waist for a secure and comfortable fit. Finished with the iconic club crest on the right leg and singular back pocket.",
+          "price":19.99,
+          "category":7,
+          "rating":4.7,
+          "image":"luton_shorts-away-adult.avif"
+       }
+    },
+    {
+       "pk":21,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003230723",
+          "name":"Manchester United Flag",
+          "description":"This Manchester United Flag is red in colour. It is made of 100% Polyester. The flag measures approximately 150 by 90 cm and features club crest at the front.",
+          "price":5.99,
+          "category":7,
+          "rating":4.3,
+          "image":"manutd_flag.webp"
+       }
+    },
+    {
+       "pk":22,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003270936",
+          "name":"Aston Villa Flag",
+          "description":"Vertically divided counterchanged crimson-blue-crimson in ratios 1:1:2 with shield in centre. Nickname The Villans below the shield",
+          "price":5.99,
+          "category":4,
+          "rating":5.0,
+          "image":"astonvilla_flag.webp"
+       }
+    },
+    {
+       "pk":23,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003360384",
+          "name":"Brentford Flag",
+          "description":"The Brentford flag is Size 150cm x 90cm. It features a shield with a depiction of a bee, and it is often referred to as The Bees.",
+          "price":5.99,
+          "category":9,
+          "rating":4.8,
+          "image":"brentford_flag.webp"
+       }
+    },
+    {
+       "pk":24,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003440111",
+          "name":"Luton Town Flag",
+          "description":"This seasons flag, we proudly bring to you, in our brand new Eco Range! Made using sustainably sourced organic cotton and a carefully tracked supply",
+          "price":5.99,
+          "category":2,
+          "rating":3.8,
+          "image":"luton_flag.webp"
+       }
+    },
+    {
+       "pk":25,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003540313",
+          "name":"Bournemouth Flag",
+          "description":"Measuring 5ft by 3ft, the flag is made from fire retardant polyester, and features a red background with a black cross, and the AFCB initials in the corners.",
+          "price":5.99,
+          "category":9,
+          "rating":3.0,
+          "image":"bournemouth_flag.webp"
+       }
+    },
+    {
+       "pk":26,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003560513",
+          "name":"Newcastle United Flag",
+          "description":"This Newcastle United Flag is black & white in colour. It is made of 100% Polyester. The flag measures approximately 150×90 cm and features club crest at the front.",
+          "price":5.99,
+          "category":7,
+          "rating":4.4,
+          "image":"newcastle_flag.webp"
+       }
+    },
+    {
+       "pk":27,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003560948",
+          "name":"Arsenal Hat",
+          "description":"Crafted from soft knit fabric, it comes with a classic folded cuff and an Invincibles brand tab to keep you warm and proud all season through.",
+          "price":10.99,
+          "category":7,
+          "rating":5.0,
+          "image":"arsenal_hat.jpg"
+       }
+    },
+    {
+       "pk":28,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003570628",
+          "name":"Everton Hat",
+          "description":"Adult's knitted Everton FC hat in traditional colours and featuring the club crest which is embroidered onto the front.",
+          "price":10.99,
+          "category":4,
+          "rating":4.3,
+          "image":"everton_hat.webp"
+       }
+    },
+    {
+       "pk":29,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003620308",
+          "name":"Spurs Hat",
+          "description":"In dark blue, this stretch-fit beanie is made from knitted polyester/acrylic fabric for long-lasting comfort and warmth.",
+          "price":10.99,
+          "category":2,
+          "rating":4.6,
+          "image":"spurs_hat.jpg"
+       }
+    },
+    {
+       "pk":30,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003690115",
+          "name":"Liverpool Hat",
+          "description":"The Liverpool FC Beanie features team details and a cuffed design to keep you warm when the temperature drops. Knit fabric offers lightweight warmth. Signature details highlight your Reds pride.",
+          "price":10.99,
+          "category":2,
+          "rating":5.0,
+          "image":"liverpool_hat.webp"
+       }
+    },
+    {
+       "pk":31,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003690116",
+          "name":"Brighton Hat",
+          "description":"'47 Navy Power Line Cuff Knit Hat, featuring BHAFC Crest and 47 brand tab.",
+          "price":10.99,
+          "category":3,
+          "rating":4.0,
+          "image":"brighton_hat.jpg"
+       }
+    },
+    {
+       "pk":32,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003780391",
+          "name":"Sheffield United Hat",
+          "description":"Red and white team colours, knitted bobble hat, 100% acrylic; one size fits all.",
+          "price":10.99,
+          "category":9,
+          "rating":4.8,
+          "image":"sheffieldunited_hat.jpg"
+       }
+    },
+    {
+       "pk":33,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003790542",
+          "name":"Crystal Palace Scarf",
+          "description":"Retro scarf, with a claret and sky bar stripes all the way down the scarf. A fringe at either end has sky blue tassels and a 1950's Towers crest woven onto one end of the scarf",
+          "price":7.99,
+          "category":2,
+          "rating":4.5,
+          "image":"crystalpalace_scarf.webp"
+       }
+    },
+    {
+       "pk":34,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003831225",
+          "name":"Chelsea Scarf",
+          "description":"In the traditional blue colourway this scarf features the iconic CFC club crest making it ideal for showing your sense of club pride. Perfect for those Saturday afternoons when you're down at Stamford Bridge roaring on the boys to success.",
+          "price":7.99,
+          "category":5,
+          "rating":4.5,
+          "image":"chelsea_scarf.webp"
+       }
+    },
+    {
+       "pk":35,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003861402",
+          "name":"Fulham Scarf",
+          "description":"The scarf is made of a soft, warm acrylic knit with jacquard print. It measures over 5 feet long and 7 inches wide with fringes at each end.",
+          "price":7.99,
+          "category":6,
+          "rating":4.7,
+          "image":"fulham_scarf.webp"
+       }
+    },
+    {
+       "pk":36,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003910638",
+          "name":"Manchester City Scarf",
+          "description":"This Manchester City Scarf is an official piece of merchandise. It is a 10 gauge scarf made from 100% acrylic with blue tassels on each end.",
+          "price":7.99,
+          "category":4,
+          "rating":4.6,
+          "image":"mancity_scarf.webp"
+       }
+    },
+    {
+       "pk":37,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003950574",
+          "name":"Nottingham Forest Scarf",
+          "description":"Red and white jacquard knit scarf with red fringe. Both sides feature Forest text with a large club crest and 1865 detail. Official licensed product.",
+          "price":7.99,
+          "category":2,
+          "rating":4.0,
+          "image":"nottinghamforest_scarf.webp"
+       }
+    },
+    {
+       "pk":38,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003950576",
+          "name":"Wet Ham Scarf",
+          "description":"Coming in the claret and blue of The Hammers, the scarf has tasselled ends in a typical style and is finished with the West Ham club crest at either end. Show your support whether you're at the game or out on the street.",
+          "price":7.99,
+          "category":2,
+          "rating":4.5,
+          "image":"westham_scarf.webp"
+       }
+    },
+    {
+       "pk":39,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003960062",
+          "name":"Wolves Scarf",
+          "description":"Gold and Black bar stripe design jacquard knit scarf with gold fringe. Features a large Wolves club crest on both sides at each end. Approx 132cm x 19cm.",
+          "price":7.99,
+          "category":3,
+          "rating":3.8,
+          "image":"wolves_scarf.webp"
+       }
+    },
+    {
+       "pk":40,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003960682",
+          "name":"Burnley Scarf",
+          "description":"This scarf is inspired by the home shirt worn by Burnley from 1991-1993. The Clarets wore this shirt when they won the Division Four title in the 1991-92 season.",
+          "price":7.99,
+          "category":7,
+          "rating":5.0,
+          "image":"burnley_scarf.jpg"
+       }
+    }
+   ]
