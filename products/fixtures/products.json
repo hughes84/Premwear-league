@@ -126,7 +126,7 @@
           "price":30.99,
           "category":7,
           "rating":4.4,
-          "image":"brighton_kit-home-child.avif"
+          "image":"brighton_kit-home-child.jpg"
        }
     },
     {
@@ -139,7 +139,7 @@
           "price":9.99,
           "category":9,
           "rating":3.0,
-          "image":"crystalpalace_socks-home-child.avif"
+          "image":"crystalpalace_socks-home-child.jpeg"
        }
     },
     {
@@ -152,7 +152,7 @@
           "price":9.99,
           "category":1,
           "rating":4.6,
-          "image":"sheffieldunited_socks-home-child.avif"
+          "image":"sheffieldunited_socks-home-child.jpg"
        }
     },
     {
@@ -165,7 +165,7 @@
           "price":9.99,
           "category":9,
           "rating":3.2,
-          "image":"fulham_socks-away-adult.avif"
+          "image":"fulham_socks-away-adult.webp"
        }
     },
     {
@@ -217,7 +217,7 @@
           "price":19.99,
           "category":5,
           "rating":4.4,
-          "image":"brentford_shorts-home-child.avif"
+          "image":"brentford_shorts-home-child.jpg"
        }
     },
     {
@@ -230,7 +230,7 @@
           "price":19.99,
           "category":2,
           "rating":4.8,
-          "image":"nottinghamforest_shorts-home-child.avif"
+          "image":"nottinghamforest_shorts-home-child.webp"
        }
     },
     {
@@ -243,7 +243,7 @@
           "price":19.99,
           "category":2,
           "rating":5.0,
-          "image":"bournemouth_shorts-away-adult.avif"
+          "image":"bournemouth_shorts-away-adult.jpg"
        }
     },
     {
@@ -256,7 +256,7 @@
           "price":19.99,
           "category":7,
           "rating":4.7,
-          "image":"luton_shorts-away-adult.avif"
+          "image":"luton_shorts-away-adult.jpg"
        }
     },
     {
