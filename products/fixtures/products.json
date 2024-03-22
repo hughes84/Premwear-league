@@ -525,13 +525,143 @@
       "pk": 40,
       "model": "products.product",
       "fields": {
-         "sku": "pp5003960682",
+         "sku": "pp5004960682",
          "name": "Burnley Scarf",
          "description": "This scarf is inspired by the home shirt worn by Burnley from 1991-1993. The Clarets wore this shirt when they won the Division Four title in the 1991-92 season.",
          "price": 7.99,
          "category": 8,
          "rating": 5.0,
          "image": "burnley_scarf.jpg"
+      }
+   },
+   {
+      "pk": 41,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5005960682",
+         "name": "Manchester United Goalkeeper Jersey",
+         "description": "Defend the colours you love in a classic Man Utd keepers' shirt with a few modern details thrown in. There's no mistaking the early '90s influences of this jersey's disruptive design. The loose fit is also very much a blast from football's past.",
+         "price": 49.99,
+         "category": 10,
+         "rating": 5.0,
+         "image": "manutd_jersey-goalkeeper-adult.avif"
+      }
+   },
+   {
+      "pk": 42,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5006960682",
+         "name": "Newcastle United Goalkeeper Jersey",
+         "description": "Our Home Goalkeeper Jersey is a modern classic, with bold black and yellow meeting geometric sleeves for a stand-out look between the sticks. Wear it proudly, make a statement, and represent NUFC in style. ",
+         "price": 49.99,
+         "category": 10,
+         "rating": 5.0,
+         "image": "newcastle_jersey-goalkeeper-adult.avif"
+      }
+   },
+   {
+      "pk": 43,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5007960682",
+         "name": "Aston Villa Goalkeeper Jersey",
+         "description": "This scarf is inspired by the home shirt worn by Burnley from 1991-1993. The Clarets wore this shirt when they won the Division Four title in the 1991-92 season.",
+         "price": 49.99,
+         "category": 10,
+         "rating": 5.0,
+         "image": "astonvilla_jersey-goalkeeper-adult.avif"
+      }
+   },
+   {
+      "pk": 44,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5008960682",
+         "name": "Ladies Goalkeeper Training Jersey",
+         "description": "A snug fit preventing opponents from grabbing the jersey. Fabrics used for a highly breathable feel that helps keep sweat from remaining.",
+         "price": 24.99,
+         "category": 10,
+         "rating": 5.0,
+         "image": "training_jersey-goalkeeper-ladies.avif"
+      }
+   },
+   {
+      "pk": 45,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5009960682",
+         "name": "Ladies Training Goalkeeper Socks",
+         "description": "Our sock model impress with pleasantly supple materials and high wearing comfort, mesh inserts for good ventilation, anatomically adjusted fits for the right and left foot as well as compression areas on the foot",
+         "price": 10.99,
+         "category": 10,
+         "rating": 5.0,
+         "image": "training_socks-goalkeeper-ladies.avif"
+      }
+   },
+   {
+      "pk": 46,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5003960682",
+         "name": "Spurs Retro Adult Jersey",
+         "description": "Half Price! Crafted with meticulous attention to detail, the retro shirt brings back cherished memories of legendary players and historic moments.",
+         "price": 19.99,
+         "category": 11,
+         "rating": 5.0,
+         "image": "spurs_jersey-retro-adult.avif"
+      }
+   },
+   {
+      "pk": 47,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5003960682",
+         "name": "Chelsea Retro Adult Jersey",
+         "description": "Half Price! Crafted with meticulous attention to detail, the retro shirt brings back cherished memories of legendary players and historic moments.",
+         "price": 19.99,
+         "category": 11,
+         "rating": 5.0,
+         "image": "chelsea_jersey-retro-adult.avif"
+      }
+   },
+   {
+      "pk": 48,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5003960682",
+         "name": "Newcastle United Kids Shorts",
+         "description": "Half Price! Lightweight and breathable. In-built sweat-wicking system. Elasticated waistband with adjustable drawcord.",
+         "price": 6.99,
+         "category": 11,
+         "rating": 5.0,
+         "image": "newcastle_shorts-kids.avif"
+      }
+   },
+   {
+      "pk": 49,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5003960682",
+         "name": "Liverpool Kids Training Jersey",
+         "description": "Half Price! Breathable, sweat-wicking Dri-FIT fabrics dry fast, so they stay cool and focused. Training in the cold? Snugly fitted drill tops lock in heat to protect their muscles.",
+         "price": 15.99,
+         "category": 11,
+         "rating": 5.0,
+         "image": "liverpool_jersey-training-kids.avif"
+      }
+   },
+   {
+      "pk": 50,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5003960682",
+         "name": "Ladies Training Socks",
+         "description": "Half Price! Our sock model impress with pleasantly supple materials and high wearing comfort, mesh inserts for good ventilation, anatomically adjusted fits for the right and left foot as well as compression areas on the foot",
+         "price": 5.49,
+         "category": 11,
+         "rating": 5.0,
+         "image": "training_socks-ladies.avif"
       }
    }
 ]
