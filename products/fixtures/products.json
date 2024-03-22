@@ -7,6 +7,7 @@
          "name": "Arsenal Home Adult Jersey",
          "description": "Crafted from breathable recycled polyester, it features an embroidered Club crest, mesh side panels and moisture-absorbing AEROREADY technology for all-day everyday ease, the Arsenal way. This home shirt is made with recycled materials as part of our ambition to help end plastic waste.",
          "price": 58.99,
+         "has_sizes": true,
          "category": 1,
          "rating": 4.6,
          "image": "arsenal_jersey-home-adult.avif"
@@ -20,6 +21,7 @@
          "name": "Manchester United Home Adult Jersey",
          "description": "The Man Utd home shirt by adidas features a traditional red base, trimmed with black details for an ultra-modern look",
          "price": 58.99,
+         "has_sizes": true,
          "category": 1,
          "rating": 4.6,
          "image": "manutd_jersey-home-adult.avif"
@@ -33,6 +35,7 @@
          "name": "Chelsea Away Adult Jersey",
          "description": "The Nike Chelsea Home Jersey 2023 2024 reminisces on the glory season of 1997/98. Expertly produced from a lightweight polyester with AEROREADY technology to keep you cool and dry as you show your support, the solid blue colourway has been a team favourite since the club's early days.",
          "price": 58.99,
+         "has_sizes": true,
          "category": 1,
          "rating": 4.7,
          "image": "chelsea_jersey-away-adult.avif"
@@ -46,6 +49,7 @@
          "name": "Newcastle United Away Adult Jersey",
          "description": "Our '23/'24 Home Short is made with Magpie legends in mind. The bold black design is held together by blue drawcords matching the detail on the woven club crest to the right thigh for a look that's both modern and classic to represent the new era of NUFC.",
          "price": 58.99,
+         "has_sizes": true,
          "category": 1,
          "rating": 3.0,
          "image": "newcastle_jersey-away-adult.avif"
@@ -59,6 +63,7 @@
          "name": "Everton Home Adult Jersey",
          "description": "Embossed in the jersey is a unique geometric pattern inspired by Prince Rupert's Tower - which is also the centerpiece of Everton's crest displayed on the chest. On the chest you also find the hummel logo while white chevrons decorate the shoulders.",
          "price": 58.99,
+         "has_sizes": true,
          "category": 1,
          "rating": 5.0,
          "image": "everton_jersey-home-adult.avif"
@@ -72,6 +77,7 @@
          "name": "Manchester City Junior Kit",
          "description": "Engineered with the latest technology to ensure you remain comfortable and dry while playing. Engraved with the classic logo to support the team in style, the kit is developed by leading brand Puma.",
          "price": 30.99,
+         "has_sizes": true,
          "category": 2,
          "rating": 4.7,
          "image": "mancity_kit-home-child.avif"
@@ -85,6 +91,7 @@
          "name": "Liverpool Junior Kit",
          "description": "Breathable, sweat-wicking Dri-FIT fabrics dry fast, so they stay cool and focused. Training in the cold? Snugly fitted drill tops lock in heat to protect their muscles.",
          "price": 30.99,
+         "has_sizes": true,
          "category": 2,
          "rating": 4.4,
          "image": "liverpool_kit-home-child.avif"
@@ -98,6 +105,7 @@
          "name": "Spurs Junior Kit",
          "description": "The shirt incorporates Nike's revolutionary DriFIT fabric technology, which wicks sweat and moisture away from your skin for faster evaporation.",
          "price": 30.99,
+         "has_sizes": true,
          "category": 2,
          "rating": 4.5,
          "image": "spurs_kit-home-child.avif"
@@ -111,6 +119,7 @@
          "name": "West Ham Junior Kit",
          "description": "Crafted from a high tech polyester for excellent air flow and ease of movement, the team badge and Umbro logo at the chest completes the sporty piece.",
          "price": 30.99,
+         "has_sizes": true,
          "category": 2,
          "rating": 4.7,
          "image": "westham_kit-away-child.avif"
@@ -124,6 +133,7 @@
          "name": "Brighton Junior Kit",
          "description": "The Brighton Shirt is a classic, striped sports shirt with a plain back for printing. We have paid great attention to detail: the luxury tape in the side, the cuffs made of fine rib material and the small piping on the shoulders.",
          "price": 30.99,
+         "has_sizes": true,
          "category": 2,
          "rating": 4.4,
          "image": "bournemouth_shorts-away-adult.jpg"
@@ -202,6 +212,7 @@
          "name": "Aston Villa Adult Shorts",
          "description": "Made from technical polyester, this pair feature an elasticated waistband, tonal stitching, contrasting trims and straight hems. Adorned with the club's home colours, the Villan's signature crest and the Castore branding are proudly displayed on the leg, elevating the design.",
          "price": 19.99,
+         "has_sizes": true,
          "category": 4,
          "rating": 4.4,
          "image": "astonvilla_shorts-home-adult.avif"
@@ -215,6 +226,7 @@
          "name": "Brentford Junior Shorts",
          "description": "Knitted pique short with elasticated waistband and internal drawcord for secure fit. Featuring; two colour side panel, stacked embroidered diamond and turret applique club crest.",
          "price": 19.99,
+         "has_sizes": true,
          "category": 4,
          "rating": 4.4,
          "image": "brentford_shorts-home-child.jpg"
@@ -228,6 +240,7 @@
          "name": "Nottingham Forest Junior Shorts",
          "description": "Designed in collaboration with Adidas, the iconic 3 Stripes run down the side of the shorts in a bold red colour along with red trim at the bottom of the shorts and red embroidery to complement the classic white design.",
          "price": 19.99,
+         "has_sizes": true,
          "category": 4,
          "rating": 4.8,
          "image": "nottinghamforest_shorts-home-child.webp"
@@ -241,6 +254,7 @@
          "name": "Bournemouth Adult Shorts",
          "description": "Made from technical moisture wicking fabric to maintain comfort and coolness, and feature an elasticated waist with drawstring for a secure fit, and contrasting trim on the base of the leg for added style.",
          "price": 19.99,
+         "has_sizes": true,
          "category": 4,
          "rating": 5.0,
          "image": "bournemouth_shorts-away-adult.jpg"
@@ -254,6 +268,7 @@
          "name": "Luton Town Adult Shorts",
          "description": "The Horizon shorts have a soft grey marl cotton finish, with a warm lining, and are slim fitting. With two hand pockets and a classic elasticated cuffed drawstring waist for a secure and comfortable fit. Finished with the iconic club crest on the right leg and singular back pocket.",
          "price": 19.99,
+         "has_sizes": true,
          "category": 4,
          "rating": 4.7,
          "image": "luton_shorts-away-adult.jpg"
