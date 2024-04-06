@@ -1,1 +1,1 @@
-web: gunicorn premwear-league.wsgi:application
+web: gunicorn premwear_league.wsgi:application
