@@ -2,12 +2,23 @@ html {
     height: 100%;
 }
 
-body {
-    background: url('/media/homepage_prem_tops.png') no-repeat center center fixed;
+.homepage-styles {
+    background: url('/media/prem_top.png') no-repeat center center;
     background-size: cover;
-    height: calc(100vh - 164px);
+    height: 100vh !important;
+    margin-top: 130px;
     color: #555;
     font-family: 'Lato';
+}
+
+main {
+    padding-bottom: 100px;
+}
+.home-overlay {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.614);
+    border-radius: 20px;
+    text-align: center;
 }
 
 /* from Bulma */
@@ -283,8 +294,8 @@ a.category-badge > span.badge:hover {
         padding-top: 116px;
     }
 
-    body {
-        height: calc(100vh - 116px);
+    main{
+        margin-top: 90px;
     }
 }
 

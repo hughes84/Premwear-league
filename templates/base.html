@@ -113,6 +113,9 @@
             </div>            
         </div>
     </header>
+    <main class="{% block mainclass %} {% endblock %}">
+
+    
 
     {% if messages %}
         <div class="message-container">
@@ -137,7 +140,7 @@
 
     {% block content %}
     {% endblock %}
-
+</main>
     {% block postloadjs %}
     <script type="text/javascript">
         $('.toast').toast('show');
