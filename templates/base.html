@@ -146,6 +146,26 @@
     {% block postloadjs %}
     <script type="text/javascript">
         $('.toast').toast('show');
+        // Handle newsletter form submission via AJAX
+        $('.sub').click(function(e) {
+          e.preventDefault();
+          let nlMsg = $('.nl-msg')
+          nlMsg.empty()
+
+          let url = $(this).data('url')
+
+          $.ajax({
+              type: 'POST',
+              url: url,
+              data: $('#nl_form').serialize(),
+              success: function(data) {
+                nlMsg.prepend(`<div class="bg-${data.status} text-white"><p> ${data.message} </p></div>`);
+              },
+              error: function(xhr, textStatus, errorThrown) {
+                nlMsg.prepend('<div class="bg-danger text-white"><p>An error occurred. Please try again.</p></div>');
+              }
+          });
+        });
     </script>
     {% endblock %}
 

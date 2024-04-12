@@ -3,7 +3,7 @@
 <section id="footer">
     <div class="container">
         <div class="row text-center text-xs-center text-sm-left text-md-left">
-            <div class="col-xs-12 col-sm-4 col-md-4">
+            <div class="col-12 col-sm-6 col-lg-3">
                 <h5>Help links</h5>
                 <ul class="list-unstyled quick-links">
                     <li><a href="https://premwear-league-b168782f243c.herokuapp.com/"><i class="fa fa-angle-double-right"></i>Home</a></li>
@@ -13,7 +13,7 @@
                     <li><a href=""><i class="fa fa-angle-double-right"></i>Site Map</a></li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-sm-4 col-md-4">
+            <div class="col-12 col-sm-6 col-lg-3">
                 <h5>Social links</h5>
                 <ul class="list-unstyled social">
                     <li class=""><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i> Facebook</a></li>
@@ -23,7 +23,19 @@
                     <li class=""><a href="https://www.premierleague.com/" target="_blank"><i class="fa fa-light fa-futbol"></i> Premier League</a></li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 text-white">
+            <div class="col-12 col-sm-6 col-lg-3">
+                <h5 class="mb-4">NEWS LETTER</h5>
+                <div class="nl-msg"></div>
+                <form id="nl_form" method="post">
+                  {% csrf_token %}
+                  <div class="nl-input-con">
+                    {{ newsletter_form.as_p }}
+                  
+                    <button data-url="{% url 'subscribe_newsletter' %}"  class="sub btn btn-success mb-3">Subscribe</button>
+                  </div>
+                </form>
+              </div>
+            <div class="col-12 col-sm-6 col-lg-3 text-white">
                 <h5>CONTACT INFO</h5>
                 <ul>
                     <li><a href=""><i class="fa fa-solid fa-location-dot"></i> Address:</a><br>1 Limerick Road, V94</li><br>
