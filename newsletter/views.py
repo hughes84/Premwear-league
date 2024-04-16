@@ -20,6 +20,7 @@ from django.views.decorators.http import require_POST
 from .models import Subscriber
 from .forms import NewsletterSubscriptionForm
 
+# pylint: disable=no-member
 
 @require_POST
 def subscribe_newsletter(request):
