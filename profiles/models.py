@@ -4,9 +4,16 @@ from django.db.models.signals import post_save
 from django.dispatch import receiver
 
 from django_countries.fields import CountryField
+from products.models import Product
 
 # pylint: disable=no-member
 
+class WishList(models.Model):
+
+    product = models.ManyToManyField(Product, related_name='product_wishlist')
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    def __str__(self):
+        return f"{self.user.username}'s wishlist"
 
 class UserProfile(models.Model):
     """

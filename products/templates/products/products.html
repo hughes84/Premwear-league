@@ -54,6 +54,13 @@
                     {% for product in products %}
                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                             <div class="card h-100 border-1">
+                                <div class="position-absolute">
+                                    <form action="{% url 'add_to_wishlist' product_id=product.id %}" method="post">
+                                        {% csrf_token %}
+                                        <input type="hidden" name="redirect_url" value="{% url 'products' %}?category={{ product.category.name }}">
+                                        <button class="btn" type="submit"><i class="text-danger fas h4 fa-heart"></i></button>
+                                      </form>
+                                </div>
                                 {% if product.image %}
                                 <a href="{% url 'product_detail' product.id %}">
                                     <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
