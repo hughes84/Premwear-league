@@ -18,6 +18,15 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 from .views import handler404
+from django.contrib.sitemaps.views import sitemap
+from .sitemaps import StaticViewSitemap
+from products.sitemaps import ProductSitemap
+
+sitemaps = {
+    'static': StaticViewSitemap,
+    'products': ProductSitemap,
+    # Add more sitemaps here
+}
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -29,6 +38,9 @@ urlpatterns = [
     path('profile/', include('profiles.urls')),
     path('newsletter/', include('newsletter.urls')),
     path('contact/', include('contact.urls')),
+    path('about/', include('about.urls')),
+    path('sitemap/', include('sitemap.urls')),
+    path('sitemap.xml', sitemap, {'sitemaps': sitemaps}, name = 'django.contrib.sitemaps.views.sitemap'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 handler404 = 'premwear_league.views.handler404'

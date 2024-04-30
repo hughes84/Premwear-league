@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
+    'django.contrib.sitemaps',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
@@ -51,6 +52,8 @@ INSTALLED_APPS = [
     'profiles',
     'newsletter',
     'contact',
+    'about',
+    'sitemap',
 
     # Other
     'crispy_forms',

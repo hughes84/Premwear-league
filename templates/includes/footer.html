@@ -6,10 +6,9 @@
                 <h5>Help links</h5>
                 <ul class="list-unstyled quick-links">
                     <li><a href="https://premwear-league-b168782f243c.herokuapp.com/"><i class="fa fa-angle-double-right"></i>Home</a></li>
-                    <li><a href=""><i class="fa fa-angle-double-right"></i>About</a></li>
-                    <li><a href=""><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                    <li><a href="{% url 'about' %}"><i class="fa fa-angle-double-right"></i>About</a></li>
                     <li><a href="{% url 'contact_us' %}" class="nav-link active"><i class="fa fa-angle-double-right"></i>Contact</a></li>
-                    <li><a href=""><i class="fa fa-angle-double-right"></i>Site Map</a></li>
+                    <li><a href="{% url 'sitemap' %}"><i class="fa fa-angle-double-right"></i>Site Map</a></li>
                 </ul>
             </div>
             <div class="col-12 col-sm-6 col-lg-3">
