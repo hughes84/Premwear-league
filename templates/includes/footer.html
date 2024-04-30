@@ -8,7 +8,7 @@
                     <li><a href="https://premwear-league-b168782f243c.herokuapp.com/"><i class="fa fa-angle-double-right"></i>Home</a></li>
                     <li><a href=""><i class="fa fa-angle-double-right"></i>About</a></li>
                     <li><a href=""><i class="fa fa-angle-double-right"></i>FAQ</a></li>
-                    <li><a href=""><i class="fa fa-angle-double-right"></i>Contact</a></li>
+                    <li><a href="{% url 'contact_us' %}" class="nav-link active"><i class="fa fa-angle-double-right"></i>Contact</a></li>
                     <li><a href=""><i class="fa fa-angle-double-right"></i>Site Map</a></li>
                 </ul>
             </div>
@@ -23,7 +23,7 @@
                 </ul>
             </div>
             <div class="col-12 col-sm-6 col-lg-3">
-                <h5 class="mb-4">NEWS LETTER</h5>
+                <h5 class="mb-4">Newsletter</h5>
                 <div class="nl-msg"></div>
                 <form id="nl_form" method="post">
                   {% csrf_token %}
@@ -35,7 +35,7 @@
                 </form>
               </div>
             <div class="col-12 col-sm-6 col-lg-3 text-white">
-                <h5>CONTACT INFO</h5>
+                <h5>Contact Info</h5>
                 <ul>
                     <li><a href=""><i class="fa fa-solid fa-location-dot"></i> Address:</a><br>1 Limerick Road, V94</li><br>
                     <li><a href=""><i class="fa fa-solid fa-phone"></i> Phone:</a><br>+353 61 111</li><br>
