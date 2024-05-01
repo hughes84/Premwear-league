@@ -71,10 +71,10 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 <details><summary>Desktop wireframes</summary>
 
-![screenshot](wireframes/wf-home.png)
-![screenshot](wireframes/wf-products.png)
-![screenshot](wireframes/wf-bag.png)
-![screenshot](wireframes/wf-checkout.png)
+![screenshot](wireframes/wf-home.png)<br>
+![screenshot](wireframes/wf-products.png)<br>
+![screenshot](wireframes/wf-bag.png)<br>
+![screenshot](wireframes/wf-checkout.png)<br>
 ![screenshot](wireframes/wf-ordersuccess.png)
 
 [Back to Table of Contents](#table-of-contents)
