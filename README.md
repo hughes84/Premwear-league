@@ -157,3 +157,15 @@ In the image, the group of footballers from various English Premier League teams
   [Back to Table of Contents](#table-of-contents)
 
 - The **product images** were taken from various different websites as to capture such a range of a selection. Those websites being; [jdsports](https://www.jdsports.co.uk/sport/football/league/premier-league/), [sportsdirect](https://ie.sportsdirect.com/), [kitbag](https://www.kitbag.com/en/premier-league/football-kits-socks/o-32750439+d-6761548326-128651+z-9-1112756498), [flagladyusa](https://flagladyusa.com/collections/premier-league-flags).
+
+### Colour Scheme
+
+- The **main colours** used for site components (such as navigation items and buttons) are black (#555) and white rgb(255, 255, 255). Using black and white for the navigation on my website I feel it creates a sleek and minimalist design aesthetic while ensuring clear and easy navigation for users. At the top of the website, the white navigation bar spans the width of the page. The navigation links are displayed in bold black text, providing a high contrast that makes them easily visible against the white background.
+
+- The update and remove buttons in the shopping bag are bright and colourful displaying their significance. I chose red (#dc3545) as it displays attention-grabbing, associated with urgency, importance, and alertness. In some contexts, red is used to signal caution, warning, or error. I used green (#28a745) as it is often associated with go, proceed, or confirmation.
+
+- The shopping bag when stocked displays a blue (#17a2b8). I used this brighter color to show the user they have added to their bag which is accompanied by a message. 
+
+- I chose a green (#007b5e) footer from Bootstrap which I feel compliments the color schemes throughout the website. 
+
+[Back to Table of Contents](#table-of-contents)
