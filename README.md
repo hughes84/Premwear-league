@@ -52,3 +52,15 @@ An e-commerce site selling Premier League football shirts, hats, shorts, socks a
 - Secure Transactions: Users prioritize secure payment methods and data protection measures to safeguard their personal and financial information during online transactions.
 - Satisfactory Customer Service: Users expect responsive customer support services to address inquiries, resolve issues, and provide assistance throughout the shopping experience, ensuring a positive overall interaction with the website.
 
+[Back to Table of Contents](#table-of-contents)
+
+## User Stories
+
+To help with the development of this project, I created user stories to map out tasks I needed to achieve in order to build the website to a good standard. I further split these user stories into epics in order to take an agile approach to its development.
+
+View a full list of user stories [here](https://github.com/users/hughes84/projects/3).
+
+View the Sprints here [here](https://github.com/hughes84/Premwear-league/milestones).
+
+[Back to Table of Contents](#table-of-contents)
+
