@@ -31,7 +31,7 @@ In essence, the website prioritizes simplicity and transparency, aiming to provi
     - [Bootstrap](#bootstrap)
 5. [Media queries](#media-queries)
 6. [Imagery](#imagery)
-7. [Imagery](#imagery)
+7. [Colour Scheme](#colour-scheme)
 8. [Imagery](#imagery)
 9. [Imagery](#imagery)
 
@@ -169,3 +169,9 @@ In the image, the group of footballers from various English Premier League teams
 - I chose a green (#007b5e) footer from Bootstrap which I feel compliments the color schemes throughout the website. 
 
 [Back to Table of Contents](#table-of-contents)
+
+### Typography
+
+- The site uses [Lato](https://fonts.google.com/specimen/Lato) throughout, imported from [Google Fonts](https://fonts.google.com/). Lato is a popular sans-serif typeface that is widely used in various design contexts, including print and digital media. Lato is known for its modern and elegant appearance, making it suitable for a wide range of design applications.
+
+
