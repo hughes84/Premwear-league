@@ -100,3 +100,33 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 Based on prior experience I decided that desktop and mobile wireframes would be sufficient to keep the overall layout of the site on track, the expectation being that [Bootstrap's grid system](https://getbootstrap.com/docs/5.3/layout/grid/) would provide the responsiveness required at different device breakpoints in between (see [Layout and Styling](#layout-and-styling) section below).
 
 Furthermore, I focused the wireframes on the main product purchase workflow, recognising that this was where design choices would be key. The other pages contain simple forms and tables, so I considered there to be little value in producing specific wireframes for those pages.
+
+### Layout and Styling
+
+#### Bootstrap
+
+The site uses the [Bootstrap 5.3 Grid system](https://getbootstrap.com/docs/5.3/layout/grid/) to ensure it is fully responsive on all device and viewport sizes. Bootstrap 5.3 uses the following [breakpoints](https://getbootstrap.com/docs/5.3/layout/breakpoints/), the shorthand references for which are used throughout the rest of this document:
+
+| Breakpoint        | Shorthand   | Dimensions |
+|-------------------|-------------|------------|
+| Extra small       | xs          | <576px     |
+| Small             | sm          | ≥576px     |
+| Medium            | md          | ≥768px     |
+| Large             | lg          | ≥992px     |
+| Extra large       | xl          | ≥1200px    |
+| Extra extra large | xxl         | ≥1400px    |
+
+[Back to Table of Contents](#table-of-contents)
+
+In addition, the site uses the following specific components from the Bootstrap library:
+
+- [Navbar](https://getbootstrap.com/docs/5.3/components/navbar/) for the header.
+- [Cards](https://getbootstrap.com/docs/5.3/components/card/) to display product information on the products page.
+- [Accordion](https://getbootstrap.com/docs/5.3/components/accordion/) to provide a collapsible menu for the FAQs.
+- [Alerts](https://getbootstrap.com/docs/5.3/components/alerts/) to display status messages.
+- [Modal plugin](https://getbootstrap.com/docs/5.3/components/modal/) to display enlarged product images on click.
+- [Spacing](https://getbootstrap.com/docs/5.3/utilities/spacing/) and [typography](https://getbootstrap.com/docs/5.3/content/typography/) utility classes throughout, ensuring the layout and font are appropriate to the device in use.
+- [Color](https://getbootstrap.com/docs/5.3/utilities/colors/) utility classes to provide specific meaning to text throughout.
+- [Display property](https://getbootstrap.com/docs/5.3/utilities/display/) to toggle the visibility of some components at certain breakpoints.
+
+[Back to Table of Contents](#table-of-contents)
