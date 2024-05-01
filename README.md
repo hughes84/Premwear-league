@@ -27,6 +27,14 @@ In essence, the website prioritizes simplicity and transparency, aiming to provi
 3. [Wireframes](#wireframes)
     - [Desktop wireframes](#desktop-wireframes)
     - [Mobile wireframes](#mobile-wireframes)
+4. [Layout and Styling](#layout-and-styling)
+    - [Bootstrap](#bootstrap)
+5. [Media queries](#media-queries)
+6. [Imagery](#imagery)
+7. [Imagery](#imagery)
+8. [Imagery](#imagery)
+9. [Imagery](#imagery)
+
 
 ## Project Goals
 
@@ -130,3 +138,21 @@ In addition, the site uses the following specific components from the Bootstrap 
 - [Display property](https://getbootstrap.com/docs/5.3/utilities/display/) to toggle the visibility of some components at certain breakpoints.
 
 [Back to Table of Contents](#table-of-contents)
+
+#### Media queries
+
+In addition to the responsive layout provided by Bootstrap, specific media queries are used to rotate the main background image to match the orientation of the device, and to change the sizes of the modal on the home page.
+
+### Imagery
+
+- The **Background image** of footballer's from the English Premier League is depicted of a virtual video game from[PESnewupdate](file:///C:/Users/Owner/pp5/links/PES%202021%20Premier%20League%20Kitpack%202023_2024%20~%20PESNewupdate.com%20_%20Free%20Download%20Latest%20Pro%20Evolution%20Soccer%20Patch%20&%20Updates.html). 
+In the image, the group of footballers from various English Premier League teams stands shoulder to shoulder, proudly showcasing their respective team jerseys. The players are arranged in lines, with each athlete donning the iconic colors and designs of their club's uniform. The jerseys are vibrant and meticulously detailed, featuring the distinct logos, crests, and sponsorships associated with each Premier League team.
+
+<details><summary>Background image</summary>
+  
+  ![Background](media/prem_top.png)
+   
+  </details>
+
+  [Back to Table of Contents](#table-of-contents)
+
