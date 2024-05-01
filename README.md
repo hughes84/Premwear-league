@@ -77,7 +77,18 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 ![screenshot](wireframes/wf-checkout.png)<br>
 ![screenshot](wireframes/wf-ordersuccess.png)
 
+</details>
+
 [Back to Table of Contents](#table-of-contents)
 
 <details><summary>Mobile wireframes</summary>
 
+![screenshot](wireframes/wf-mobile-home.png)<br>
+![screenshot](wireframes/wf-mobile-products.png)<br>
+![screenshot](wireframes/wf-mobile-bag.png)<br>
+![screenshot](wireframes/wf-mobile-checkout.png)<br>
+![screenshot](wireframes/wf-mobile-ordersuccess.png)
+
+</details>
+
+[Back to Table of Contents](#table-of-contents)
