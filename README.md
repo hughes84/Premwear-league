@@ -28,3 +28,17 @@ In essence, the website prioritizes simplicity and transparency, aiming to provi
     - [Desktop wireframes](#desktop-wireframes)
     - [Mobile wireframes](#mobile-wireframes)
 
+## Project Goals
+
+### Purpose
+
+An e-commerce site selling Premier League football shirts, hats, shorts, socks and flags, which allows customers to browse and buy, while allowing site admins to add, edit and delete products.
+
+### Site Goals
+
+- Product Showcase: Showcase the latest trends, designs, and innovations in the sportswear industry, highlighting the quality and functionality of the products offered.
+- Brand Promotion: Serve as a platform to promote and build brand awareness for the sportswear brand, leveraging digital marketing strategies and engaging content to attract and retain customers.
+- Personalization: Utilize data analytics and customer insights to personalize the shopping experience, recommending products based on past purchases, preferences, and browsing behavior.
+- Mobile Compatibility: Ensure the website is mobile-responsive, catering to the growing number of customers who prefer to shop on their smartphones and tablets.
+- Customer Support: Provide efficient customer support channels, including messaging and email to address inquiries, resolve issues, and ensure customer satisfaction post-purchase.
+
