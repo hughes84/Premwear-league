@@ -17,3 +17,14 @@ Navigation is intuitive, facilitated by a user-friendly main menu that allows ea
 
 In essence, the website prioritizes simplicity and transparency, aiming to provide users with a positive and stress-free browsing experience from start to finish.
 
+## Table of Contents
+
+1. [Project Goals](#project-goals)
+    - [Purpose](#purpose)
+    - [Site Goals](#site-goals)
+    - [User Goals](#user-goals)
+2. [User Stories](#user-stories)
+3. [Wireframes](#wireframes)
+    - [Desktop wireframes](#desktop-wireframes)
+    - [Mobile wireframes](#mobile-wireframes)
+
