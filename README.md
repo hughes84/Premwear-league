@@ -69,7 +69,9 @@ View the Sprints here [here](https://github.com/hughes84/Premwear-league/milesto
 To help with the design of the site, I created wireframes for each page. To follow best practice, wireframes were developed for mobile and desktop sizes.
 I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
 
-<details><summary>Desktop wireframes</summary>
+## Desktop wireframes
+
+<details><summary>Click to Desktop wireframes</summary>
 
 ![screenshot](wireframes/wf-home.png)<br>
 ![screenshot](wireframes/wf-products.png)<br>
@@ -81,7 +83,9 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 [Back to Table of Contents](#table-of-contents)
 
-<details><summary>Mobile wireframes</summary>
+## Mobile wireframes
+
+<details><summary>Click to Mobile wireframes</summary>
 
 ![screenshot](wireframes/wf-mobile-home.png)<br>
 ![screenshot](wireframes/wf-mobile-products.png)<br>
