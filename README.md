@@ -42,3 +42,13 @@ An e-commerce site selling Premier League football shirts, hats, shorts, socks a
 - Mobile Compatibility: Ensure the website is mobile-responsive, catering to the growing number of customers who prefer to shop on their smartphones and tablets.
 - Customer Support: Provide efficient customer support channels, including messaging and email to address inquiries, resolve issues, and ensure customer satisfaction post-purchase.
 
+[Back to Table of Contents](#table-of-contents)
+
+### User Goals
+
+- Customer Convenience: Provide customers with a convenient platform to browse, select, and purchase sportswear products from the comfort of their homes or on the go, enhancing overall shopping experience.
+- Find Desired Products Easily: Users aim to quickly locate the sportswear products they are interested in, whether it's specific items, brands, or categories.
+- View Product Details: Users seek detailed information about each product, including descriptions, materials, sizing charts, and customer reviews, to make informed purchasing decisions.
+- Secure Transactions: Users prioritize secure payment methods and data protection measures to safeguard their personal and financial information during online transactions.
+- Satisfactory Customer Service: Users expect responsive customer support services to address inquiries, resolve issues, and provide assistance throughout the shopping experience, ensuring a positive overall interaction with the website.
+
