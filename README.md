@@ -156,3 +156,4 @@ In the image, the group of footballers from various English Premier League teams
 
   [Back to Table of Contents](#table-of-contents)
 
+- The **product images** were taken from various different websites as to capture such a range of a selection. Those websites being; [jdsports](https://www.jdsports.co.uk/sport/football/league/premier-league/), [sportsdirect](https://ie.sportsdirect.com/), [kitbag](https://www.kitbag.com/en/premier-league/football-kits-socks/o-32750439+d-6761548326-128651+z-9-1112756498), [flagladyusa](https://flagladyusa.com/collections/premier-league-flags).
