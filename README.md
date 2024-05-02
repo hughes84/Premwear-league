@@ -514,4 +514,14 @@ html sitemap for users to view.
 
 [Back to Table of Contents](#table-of-contents)
 
+### Robots
+
+I've created the [robots.txt](robots.txt) file at the root-level.
+Inside, I've included the default settings:
+
+```
+User-agent: *
+Disallow: /admin/
+Sitemap: https://premwear-league-b168782f243c.herokuapp.com/sitemap.xml
+```
 
