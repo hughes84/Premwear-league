@@ -47,7 +47,10 @@ In essence, the website prioritizes simplicity and transparency, aiming to provi
     - [GitHub Projects](#gitHub-projects)
     - [GitHub Issues](#gitHub-issues)
     - [MoSCoW Prioritization](#moSCoW-prioritization)
-17. [Existing Features](#existing-features)
+17. [Ecommerce Business Model](#ecommerce-business-model)
+18. [Ecommerce Business Model](#ecommerce-business-model)
+19. [Ecommerce Business Model](#ecommerce-business-model)
+20. [Ecommerce Business Model](#ecommerce-business-model)
 
 
 ## Project Goals
@@ -488,3 +491,18 @@ Using this approach, I was able to apply the MoSCow prioritization and labels to
 - **Won't Have**: not a priority for this iteration.
 
 [Back to Table of Contents](#table-of-contents)
+
+## Ecommerce Business Model
+
+This site sells goods to individual customers, and therefore follows a `Business to Customer` model.
+It is of the simplest **B2C** forms, as it focuses on individual transactions, and doesn't need anything
+such as monthly/annual subscriptions.
+
+It is still in its early development stages, although it already has a newsletter, and links for social media marketing.
+
+Social media can potentially build a community of users around the business, and boost site visitor numbers,
+especially when using larger platforms such a Facebook.
+
+A newsletter list can be used by the business to send regular messages to site users.
+For example, what items are on special offer, new items in stock,
+updates to business hours, notifications of events, and much more!
