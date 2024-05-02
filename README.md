@@ -305,8 +305,21 @@ Python has been used to build the core backend application which underpins the s
 
 - **Product Sorting**
 
-    - When the user is viewing products page, they can choose the amount of products per page 
+    - When the user is viewing products page, they can choose how to sort their search. 
 
     ![screenshot](media/sc-sorting.png)
 
 [Back to Table of Contents](#table-of-contents)
+
+- **Main Nav Menu**
+
+    - Throughout the whole site the user has access to the main nav menu. Features include a search button, account/profile access, basket link and running total if the user has items added to their baskets.
+
+    ![screenshot](media/sc-main-navmenu.png)
+
+- **Search Bar**
+    - Users can use the header search button to open the search input field and search to find specific products. The search term is matched up with products' name and description to give the user a list of products to match their search term.
+
+    ![screenshot](media/sc-searchbar.png)
+
+
