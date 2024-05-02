@@ -43,7 +43,10 @@ In essence, the website prioritizes simplicity and transparency, aiming to provi
 13. [Python Functionality using Django](#python-functionality-using-django)
 14. [Existing Features](#existing-features)
 15. [Tools & Technologies Used](#tools-&-technologies-used)
-16. [Existing Features](#existing-features)
+16. [Agile Development Process](#agile-development-process)
+    - [GitHub Projects](#gitHub-projects)
+    - [Minimum Viable Product](#minimum-viable-product)
+    - [Minimum Viable Product](#minimum-viable-product)
 17. [Existing Features](#existing-features)
 
 
@@ -436,6 +439,8 @@ Python has been used to build the core backend application which underpins the s
 
     ![screenshot](media/sc-confirmationemail.png)
 
+[Back to Table of Contents](#table-of-contents)    
+
 ## Tools & Technologies Used
 
 This site couldn't have been created without a variety of tools and technologies. I've listed the ones used below.
@@ -457,3 +462,12 @@ This site couldn't have been created without a variety of tools and technologies
 - [AWS S3](https://aws.amazon.com/s3) used for online static file storage.
 - [Django Summernote](https://github.com/summernote/django-summernote) used for the body field for blog posts.
 - [Pillow](https://pypi.org/project/Pillow/) used for handling images.
+
+[Back to Table of Contents](#table-of-contents)
+
+## Agile Development Process
+
+### GitHub Projects
+
+[GitHub Projects](https://github.com/hughes84/Premwear-league/projects?query=is%3Aopen) served as an Agile tool for this project.
+
