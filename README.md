@@ -281,4 +281,11 @@ Python has been used to build the core backend application which underpins the s
     ![screenshot](media/sc-homepage.png)
     ![screenshot](media/sc-homepage2.png)
 
--
+- **Products Page**
+
+    - This is the page containing the products that the site sells.
+
+    ![screenshot](media/sc-products.png)
+
+[Back to Table of Contents](#table-of-contents)
+
