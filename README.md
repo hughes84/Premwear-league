@@ -303,3 +303,10 @@ Python has been used to build the core backend application which underpins the s
 
     ![screenshot](media/sc-productdetail.png)
 
+- **Product Sorting**
+
+    - When the user is viewing products page, they can choose the amount of products per page 
+
+    ![screenshot](media/sc-sorting.png)
+
+[Back to Table of Contents](#table-of-contents)
