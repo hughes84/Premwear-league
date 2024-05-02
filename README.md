@@ -415,3 +415,12 @@ Python has been used to build the core backend application which underpins the s
     ![screenshot](media/sc-cartsummary.png)
 
 [Back to Table of Contents](#table-of-contents)
+
+- **Checkout**
+
+    - The final step of the users shopping journey on the site is the checkout page.
+    - This page contains a form for the user's delivery and payment information and a summary of the user's order.
+    - If the user has an account on the site, they can save their delivery information on their profile to automatically be filled in the checkout.
+
+    ![screenshot](media/sc-checkout.png)
+
