@@ -40,7 +40,7 @@ In essence, the website prioritizes simplicity and transparency, aiming to provi
     - [Minimum Viable Product](#minimum-viable-product)
     - [Additional Features](#additional-features)
     - [Future Ideas](#future-ideas)
-13. [Loading spinner](#loading-spinner)
+13. [Python Functionality using Django](#python-functionality-using-django)
 14. [Loading spinner](#loading-spinner)
 
 
@@ -259,3 +259,12 @@ In the image, the group of footballers from various English Premier League teams
    - The ability for a superuser to dynamically update the team badges displayed on the front page, allowing them to promote different teams at different times based on current events (e.g. promoting the two teams appearing in a cup final).
 
 [Back to Table of Contents](#table-of-contents)
+
+### Python Functionality using Django
+
+Python has been used to build the core backend application which underpins the site, utilising the [Django web framework](https://www.djangoproject.com/). In particular, Python and Django have been used to:
+
+- Provide routing of pages, allowing meaningful URLs to be used to return pages and content to the user.
+- Connect to the backend database to retrieve information and serve it to the site, and to allow creation, updating and deletion of records.
+- Provide login functionality and security, ensuring only authorised users can access and edit particular information.
+- Display messages to the user (via [Bootstrap Alerts](https://getbootstrap.com/docs/5.3/components/alerts/)).
