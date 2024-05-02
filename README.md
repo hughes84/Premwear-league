@@ -42,7 +42,7 @@ In essence, the website prioritizes simplicity and transparency, aiming to provi
     - [Future Ideas](#future-ideas)
 13. [Python Functionality using Django](#python-functionality-using-django)
 14. [Existing Features](#existing-features)
-15. [Tools and Technologies Used](#tools-and-technologies-used)
+15. [Tools And Technologies Used](#tools-and-technologies-used)
 16. [Agile Development Process](#agile-development-process)
     - [GitHub Projects](#gitHub-projects)
     - [GitHub Issues](#gitHub-issues)
@@ -444,7 +444,7 @@ Python has been used to build the core backend application which underpins the s
 
 [Back to Table of Contents](#table-of-contents)    
 
-## Tools & Technologies Used
+## Tools And Technologies Used
 
 This site couldn't have been created without a variety of tools and technologies. I've listed the ones used below.
 
