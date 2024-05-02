@@ -217,3 +217,13 @@ In the image, the group of footballers from various English Premier League teams
   ![Favicon](static/favicon/android-chrome-192x192.png)
 
   </details>
+
+  ### Loading spinner
+
+- The site utilises a **loading spinner** on the checkout page to illustrate that a page is loading.
+
+  <details><summary>Loading Spinner</summary>
+
+  ![Loading spinner](sc-spinner.png)
+
+  </details>
