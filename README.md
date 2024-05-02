@@ -361,4 +361,10 @@ Python has been used to build the core backend application which underpins the s
 
     ![screenshot](media/sc-signout.png)
 
+- **Password Reset**
+
+    - If a user is trying to log in and has forgotten their password they can visit the password reset page. Here a user must enter the email address that they used to sign up with and an email will be sent to them with further instructions on resetting their password to regain access to their account.
+
+    ![screenshot](media/sc-pwreset.png)
+
 
