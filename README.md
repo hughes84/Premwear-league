@@ -429,3 +429,9 @@ Python has been used to build the core backend application which underpins the s
     - Once the order is complete, the user will receive an order confirmation email informing user that there order has been received.
 
     ![screenshot](docs/features/order-received-email.png)
+
+- **Order Confirmation Email**
+
+    - Once the order is complete and payment has been received, the user will receive an order confirmation email containing their order number and a receipt with the total paid.
+
+    ![screenshot](media/sc-confirmationemail.png)
