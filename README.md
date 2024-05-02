@@ -338,6 +338,13 @@ Python has been used to build the core backend application which underpins the s
 
     ![screenshot](media/sc-addproduct.png)
 
+- **User Sign Up**
+
+    - Users without an account can register for one through the register link in the header. This will present them with a form to add their details and create an account.
+	- Users are sent a confirmation email to complete their account sign up to help avoid people from creating spam accounts on the site.
+
+    ![screenshot](media/sc-signup.png)
+
 
 
 
