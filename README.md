@@ -389,4 +389,12 @@ Python has been used to build the core backend application which underpins the s
 
     ![screenshot](media/sc-newsletter.png)
 
+- **Contact Us Page**
+
+    - This page can be accessed from the footer throughout the site in the Help Links.
+
+    ![screenshot](media/sc-contact.png)
+
+[Back to Table of Contents](#table-of-contents)
+
 
