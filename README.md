@@ -471,3 +471,6 @@ This site couldn't have been created without a variety of tools and technologies
 
 [GitHub Projects](https://github.com/hughes84/Premwear-league/projects?query=is%3Aopen) served as an Agile tool for this project.
 
+### GitHub Issues
+
+[GitHub Issues](https://github.com/hughes84/Premwear-league/issues) served as an another Agile tool.
