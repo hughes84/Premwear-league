@@ -367,4 +367,11 @@ Python has been used to build the core backend application which underpins the s
 
     ![screenshot](media/sc-pwreset.png)
 
+- **User Profile**
 
+    - When a user has completed registration on the site, they are given a profile where they can add or edit details.
+    - This will also contain past orders and saved wishlists.
+
+    ![screenshot](media/sc-profile.png)
+
+[Back to Table of Contents](#table-of-contents)
