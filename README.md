@@ -45,8 +45,8 @@ In essence, the website prioritizes simplicity and transparency, aiming to provi
 15. [Tools & Technologies Used](#tools-&-technologies-used)
 16. [Agile Development Process](#agile-development-process)
     - [GitHub Projects](#gitHub-projects)
-    - [Minimum Viable Product](#minimum-viable-product)
-    - [Minimum Viable Product](#minimum-viable-product)
+    - [GitHub Issues](#gitHub-issues)
+    - [MoSCoW Prioritization](#moSCoW-prioritization)
 17. [Existing Features](#existing-features)
 
 
@@ -476,3 +476,15 @@ This site couldn't have been created without a variety of tools and technologies
 [GitHub Issues](https://github.com/hughes84/Premwear-league/issues) served as an another Agile tool.
 
 It also helped to keep on top of my [milestones](https://github.com/hughes84/Premwear-league/milestones) for the project.
+
+### MoSCoW Prioritization
+
+I've decomposed my Epics into stories prior to prioritizing and implementing them.
+Using this approach, I was able to apply the MoSCow prioritization and labels to my user stories within the Issues tab.
+
+- **Must Have**: guaranteed to be delivered.
+- **Should Have**: adds significant value, but not vital.
+- **Could Have**: has small impact if left out.
+- **Won't Have**: not a priority for this iteration.
+
+[Back to Table of Contents](#table-of-contents)
