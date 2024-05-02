@@ -345,6 +345,13 @@ Python has been used to build the core backend application which underpins the s
 
     ![screenshot](media/sc-signup.png)
 
+- **User Sign In**
 
+    - If a user is not signed in to the site but has a profile, they can follow the sign in link in the header where they're presented with a log in page. They must input their username or email address and correct password to do so. There's also a checkbox to remember the user on their current device to avoid having to log in every time they visit the site.
+	- There is also a link for users who have forgotten their password.
+
+    ![screenshot](media/sc-signin.png)
+
+[Back to Table of Contents](#table-of-contents)
 
 
