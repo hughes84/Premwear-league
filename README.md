@@ -49,7 +49,7 @@ In essence, the website prioritizes simplicity and transparency, aiming to provi
     - [MoSCoW Prioritization](#moSCoW-prioritization)
 17. [Ecommerce Business Model](#ecommerce-business-model)
 18. [Sitemap](#sitemap)
-19. [Ecommerce Busines Model](#ecommerce-business-model)
+19. [Newsletter Marketing](#newsletter-marketing)
 20. [Ecommerce Business Model](#ecommerce-business-model)
 
 
@@ -525,3 +525,23 @@ Disallow: /admin/
 Sitemap: https://premwear-league-b168782f243c.herokuapp.com/sitemap.xml
 ```
 
+### Newsletter Marketing
+
+I have incorporate a newsletter sign-up form on my application, to allow users to supply their
+email address if they are interested in learning more about what the business has to offer.
+
+I created a custom newsletter app in my project with a custom NewsletterSignup model and added a form to the site's footer to collect user email addresses 
+
+Newsletter model:
+
+```python
+class NewsletterSignup(models.Model):
+    email = models.EmailField(unique=True, null=False, blank=False)
+
+def __str__(self):
+    return self.email
+```
+
+I set the email address to be unique to avoid users signing up multiple times with the same email address. 
+
+Once a user signs up, I used the `send_mail()` functionality to trigger a welcome email for the user to acknowledge that they've successfully signed up for the newsletter.
