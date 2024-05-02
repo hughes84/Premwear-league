@@ -42,7 +42,7 @@ In essence, the website prioritizes simplicity and transparency, aiming to provi
     - [Future Ideas](#future-ideas)
 13. [Python Functionality using Django](#python-functionality-using-django)
 14. [Existing Features](#existing-features)
-15. [Tools & Technologies Used](#tools-&-technologies-used)
+15. [Tools and Technologies Used](#tools-and-technologies-used)
 16. [Agile Development Process](#agile-development-process)
     - [GitHub Projects](#gitHub-projects)
     - [GitHub Issues](#gitHub-issues)
