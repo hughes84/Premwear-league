@@ -407,3 +407,11 @@ Python has been used to build the core backend application which underpins the s
     ![screenshot](media/sc-cart.png)
 
     ![screenshot](media/sc-empty.png)
+
+- **Cart summary page**
+
+    - On this page the user can update the quantity or remove products and is given a summary of the the order.
+
+    ![screenshot](media/sc-cartsummary.png)
+
+[Back to Table of Contents](#table-of-contents)
