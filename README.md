@@ -236,14 +236,14 @@ In the image, the group of footballers from various English Premier League teams
 
   ### Scope
 
-- #### Minimum Viable Product
+#### Minimum Viable Product
 
  To be viable as an eCommerce site for sportswear and meet the stated [Project Goals](#project-goals), the website **must have**:
   - Images and details of products for sale.
   - A way for potential customers to browse products.
   - A method for allowing customers to purchase selected products.
 
-  - #### Additional Features (in scope)
+  #### Additional Features (in scope)
 
   To provide a good user experience in line with the stated [Project Goals](#project-goals), the website **should have**:
   - Sophisticated browsing, searching and list ordering functionality to allow customers to find products through a variety of methods.
@@ -252,7 +252,7 @@ In the image, the group of footballers from various English Premier League teams
   - A wishlist feature, allowing users to add items to a virtual bag for purchase at a later date.
   - Newsletter sign-up, allowing the business to keep customers up-to-date with news and special offers.
 
-  - #### Future Ideas (not currently in scope)
+  #### Future Ideas (not currently in scope)
   
    To provide a better user experience and better meet the stated [Project Goals](#project-goals), the website also **could have**:
    - The option for registered users to select their favourite team(s), which would allow for prioritisation of those shirts when browsing, as well as alerts when new items relating to that team are added.
