@@ -289,3 +289,10 @@ Python has been used to build the core backend application which underpins the s
 
 [Back to Table of Contents](#table-of-contents)
 
+- **Product Card**
+
+    - Each product has its own card which contains the product's price, image, name, favourite button and review count if there are any.
+    - If the user is logged in, they will also see a favourite button to add products to there wishlist section in their profile.
+
+    ![screenshot](media/sc-card.png)
+
