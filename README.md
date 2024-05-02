@@ -474,3 +474,5 @@ This site couldn't have been created without a variety of tools and technologies
 ### GitHub Issues
 
 [GitHub Issues](https://github.com/hughes84/Premwear-league/issues) served as an another Agile tool.
+
+It also helped to keep on top of my [milestones](https://github.com/hughes84/Premwear-league/milestones) for the project.
