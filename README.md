@@ -32,8 +32,10 @@ In essence, the website prioritizes simplicity and transparency, aiming to provi
 5. [Media queries](#media-queries)
 6. [Imagery](#imagery)
 7. [Colour Scheme](#colour-scheme)
-8. [Icons](#icons)
-9. [Imagery](#imagery)
+8. [Typography](#typography)
+9. [Icons](#icons)
+10. [Imagery](#imagery)
+11. [Imagery](#imagery)
 
 
 ## Project Goals
