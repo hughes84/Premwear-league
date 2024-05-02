@@ -354,4 +354,11 @@ Python has been used to build the core backend application which underpins the s
 
 [Back to Table of Contents](#table-of-contents)
 
+- **User Sign Out**
+
+    - If a user wants to end their logged in session, they can click logout under the account dropdown in the nav menu.
+    - This will bring them to a page confirming they want to log out.
+
+    ![screenshot](media/sc-signout.png)
+
 
