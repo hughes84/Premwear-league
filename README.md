@@ -42,7 +42,7 @@ In essence, the website prioritizes simplicity and transparency, aiming to provi
     - [Future Ideas](#future-ideas)
 13. [Python Functionality using Django](#python-functionality-using-django)
 14. [Existing Features](#existing-features)
-15. [Existing Features](#existing-features)
+15. [Tools & Technologies Used](#tools-&-technologies-used)
 16. [Existing Features](#existing-features)
 17. [Existing Features](#existing-features)
 
@@ -435,3 +435,25 @@ Python has been used to build the core backend application which underpins the s
     - Once the order is complete and payment has been received, the user will receive an order confirmation email containing their order number and a receipt with the total paid.
 
     ![screenshot](media/sc-confirmationemail.png)
+
+## Tools & Technologies Used
+
+This site couldn't have been created without a variety of tools and technologies. I've listed the ones used below.
+
+- [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
+- [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
+- [CSS :root variables](https://www.w3schools.com/css/css3_variables.asp) used for reusable styles throughout the site.
+- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used for an enhanced responsive layout.
+- [JavaScript](https://www.javascript.com) used for user interaction on the site.
+- [Python](https://www.python.org) used as the back-end programming language.
+- [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
+- [GitHub](https://github.com) used for secure online code storage.
+- [Bootstrap](https://getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
+- [Django](https://www.djangoproject.com) used as the Python framework for the site.
+- [PostgreSQL](https://www.postgresql.org) used as the relational database management.
+- [ElephantSQL](https://www.elephantsql.com) used as the Postgres database.
+- [Heroku](https://www.heroku.com) used for hosting the deployed back-end site.
+- [Stripe](https://stripe.com) used for online secure payments of ecommerce products/services.
+- [AWS S3](https://aws.amazon.com/s3) used for online static file storage.
+- [Django Summernote](https://github.com/summernote/django-summernote) used for the body field for blog posts.
+- [Pillow](https://pypi.org/project/Pillow/) used for handling images.
