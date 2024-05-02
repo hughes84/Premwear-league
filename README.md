@@ -397,4 +397,13 @@ Python has been used to build the core backend application which underpins the s
 
 [Back to Table of Contents](#table-of-contents)
 
+- **Basket**
 
+    - The basket can be accessed from the main nav menu.
+    - In the menu a running total is shown of the items in the user's basket.
+    - When the user clicks on this they can see all the items in their basket, individual price of each product, subtotal per product if the quantity is greater than 1 and a quantity selector for each product with buttons to update the quantity or remove the product completely from their basket.
+    - If a user does not have anything in their basket, a message will appear prompting the user to continue shopping.
+
+    ![screenshot](media/sc-cart.png)
+
+    ![screenshot](media/sc-empty.png)
