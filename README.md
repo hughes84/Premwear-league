@@ -48,8 +48,8 @@ In essence, the website prioritizes simplicity and transparency, aiming to provi
     - [GitHub Issues](#gitHub-issues)
     - [MoSCoW Prioritization](#moSCoW-prioritization)
 17. [Ecommerce Business Model](#ecommerce-business-model)
-18. [Ecommerce Business Model](#ecommerce-business-model)
-19. [Ecommerce Business Model](#ecommerce-business-model)
+18. [Sitemap](#sitemap)
+19. [Ecommerce Busines Model](#ecommerce-business-model)
 20. [Ecommerce Business Model](#ecommerce-business-model)
 
 
@@ -506,3 +506,12 @@ especially when using larger platforms such a Facebook.
 A newsletter list can be used by the business to send regular messages to site users.
 For example, what items are on special offer, new items in stock,
 updates to business hours, notifications of events, and much more!
+
+### Sitemap
+
+I've used the built in 'django.contrib.sitemaps' app to generate the sitemap.xml I also created a
+html sitemap for users to view.
+
+[Back to Table of Contents](#table-of-contents)
+
+
