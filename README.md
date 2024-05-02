@@ -383,4 +383,10 @@ Python has been used to build the core backend application which underpins the s
 
     ![screenshot](media/sc-footer.png)
 
+- **Newsletter**
+
+    - Using the form in the footer, users can sign up to the site's newsletter by entering their email address and hitting the subscribe button. A confirmation email is then sent confirming signup.
+
+    ![screenshot](media/sc-newsletter.png)
+
 
