@@ -34,7 +34,7 @@ In essence, the website prioritizes simplicity and transparency, aiming to provi
 7. [Colour Scheme](#colour-scheme)
 8. [Typography](#typography)
 9. [Icons](#icons)
-10. [Imagery](#imagery)
+10. [Favicon](#favicon)
 11. [Imagery](#imagery)
 
 
@@ -207,3 +207,13 @@ In the image, the group of footballers from various English Premier League teams
   </details>
 
   [Back to Table of Contents](#table-of-contents)
+
+  ### Favicon
+
+- The **favicon** is the football representing the sites theme, generated using [Favicon Generator](https://favicon.io/favicon-generator/).
+
+  <details><summary>Favicon</summary>
+
+  ![Favicon](static/favicon/android-chrome-192x192.png)
+
+  </details>
