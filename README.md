@@ -35,7 +35,7 @@ In essence, the website prioritizes simplicity and transparency, aiming to provi
 8. [Typography](#typography)
 9. [Icons](#icons)
 10. [Favicon](#favicon)
-11. [Imagery](#imagery)
+11. [Loading spinner](#loading-spinner)
 
 
 ## Project Goals
@@ -224,6 +224,6 @@ In the image, the group of footballers from various English Premier League teams
 
   <details><summary>Loading Spinner</summary>
 
-  ![Loading spinner](sc-spinner.png)
+  ![Loading spinner](icons/sc-spinner.png)
 
   </details>
