@@ -375,3 +375,12 @@ Python has been used to build the core backend application which underpins the s
     ![screenshot](media/sc-profile.png)
 
 [Back to Table of Contents](#table-of-contents)
+
+- **Site Footer**
+
+    - This appears on every page throughout the site and contains links to the help pages, social media pages and the store's contact details.
+  
+
+    ![screenshot](media/sc-footer.png)
+
+
