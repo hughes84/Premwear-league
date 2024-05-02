@@ -32,7 +32,7 @@ In essence, the website prioritizes simplicity and transparency, aiming to provi
 5. [Media queries](#media-queries)
 6. [Imagery](#imagery)
 7. [Colour Scheme](#colour-scheme)
-8. [Imagery](#imagery)
+8. [Icons](#icons)
 9. [Imagery](#imagery)
 
 
@@ -174,4 +174,34 @@ In the image, the group of footballers from various English Premier League teams
 
 - The site uses [Lato](https://fonts.google.com/specimen/Lato) throughout, imported from [Google Fonts](https://fonts.google.com/). Lato is a popular sans-serif typeface that is widely used in various design contexts, including print and digital media. Lato is known for its modern and elegant appearance, making it suitable for a wide range of design applications.
 
+### Icons
 
+- [Bootstrap Icons](https://icons.getbootstrap.com/) have been used for **navigation items**, **alerts** and various **buttons** throughout the site.
+
+<details><summary>Navigation icons</summary>
+
+  ![Navigation icons](icons/sc-nav1.png)
+  ![Navigation icons](icons/sc-nav2.png)
+  ![Navigation icons](icons/sc-nav3.png)
+  ![Navigation icons](icons/sc-nav4.png)
+
+  </details>
+
+  <details><summary>Alerts</summary>
+
+  ![Success message](icons/sc-success.png)
+  ![Info message](icons/sc-info.png)
+  ![Warning message](icons/sc-warning.png)
+  ![Error message](icons/sc-error1.png)
+  ![Error message](icons/sc-error2.png)
+
+  </details>
+
+  <details><summary>Button</summary>
+
+  ![Button](icons/sc-btn1.png)
+  ![Button](icons/sc-btn2.png)
+
+  </details>
+
+  [Back to Table of Contents](#table-of-contents)
