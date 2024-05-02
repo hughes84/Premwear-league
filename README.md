@@ -322,4 +322,16 @@ Python has been used to build the core backend application which underpins the s
 
     ![screenshot](media/sc-searchbar.png)
 
+- **My Account Dropdown**
+
+    - If the user is logged in, the my account dropdown in the nav menu will contain a link to the user's profile, change password, logout and email settings page.
+	- If the user is not logged in they will be given the option to sign in. 
+    - If admin is logged in an option for product management is displayed also.
+
+   ![screenshot](media/sc-accountdropdown.png)
+
+[Back to Table of Contents](#table-of-contents)
+
+
+
 
