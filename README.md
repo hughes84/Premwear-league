@@ -296,3 +296,10 @@ Python has been used to build the core backend application which underpins the s
 
     ![screenshot](media/sc-card.png)
 
+- **Product detail page**
+
+    - Every product has a button that lets the user to add it to their basket when viewing individual product page. They can choose the quantity as well.
+    - The cart modal shows up after user adds a product confirming the item has been added to their basket.
+
+    ![screenshot](media/sc-productdetail.png)
+
