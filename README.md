@@ -332,6 +332,12 @@ Python has been used to build the core backend application which underpins the s
 
 [Back to Table of Contents](#table-of-contents)
 
+- **Add product**
+
+    - If the user is logged in and has admin permissions, they can add new products.
+
+    ![screenshot](media/sc-addproduct.png)
+
 
 
 
