@@ -41,7 +41,10 @@ In essence, the website prioritizes simplicity and transparency, aiming to provi
     - [Additional Features](#additional-features)
     - [Future Ideas](#future-ideas)
 13. [Python Functionality using Django](#python-functionality-using-django)
-14. [Loading spinner](#loading-spinner)
+14. [Existing Features](#existing-features)
+15. [Existing Features](#existing-features)
+16. [Existing Features](#existing-features)
+17. [Existing Features](#existing-features)
 
 
 ## Project Goals
@@ -268,3 +271,14 @@ Python has been used to build the core backend application which underpins the s
 - Connect to the backend database to retrieve information and serve it to the site, and to allow creation, updating and deletion of records.
 - Provide login functionality and security, ensuring only authorised users can access and edit particular information.
 - Display messages to the user (via [Bootstrap Alerts](https://getbootstrap.com/docs/5.3/components/alerts/)).
+
+### Existing Features
+
+- **Landing Page**
+
+    - This is the page a user lands on when arriving at the site. It welcomes them to the site and gives them an idea of what the site sells. A button is present that will bring the user to the site's product page.
+
+    ![screenshot](media/sc-homepage.png)
+    ![screenshot](media/sc-homepage2.png)
+
+-
