@@ -86,6 +86,7 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                {% if wishlist %}
                                 {% for product in wishlist %}                              
                                     <tr>                               
                                         <td>
@@ -107,6 +108,11 @@
                                     </tr>
                                     
                                 {% endfor %}
+                                {% else %}
+                                    <tr>
+                                        <td colspan="5">No items in your wishlist</td>
+                                    </tr>
+                                {% endif %}
                             </tbody>
                         </table>
                     </div>

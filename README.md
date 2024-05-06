@@ -545,3 +545,4 @@ def __str__(self):
 I set the email address to be unique to avoid users signing up multiple times with the same email address. 
 
 Once a user signs up, I used the `send_mail()` functionality to trigger a welcome email for the user to acknowledge that they've successfully signed up for the newsletter.
+

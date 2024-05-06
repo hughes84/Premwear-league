@@ -23,16 +23,18 @@ def profile(request):
     else:
         form = UserProfileForm(instance=user_profile)
     orders = user_profile.orders.all()
-    wishlist = WishList.objects.get(user=request.user)
+    wishlist = WishList.objects.filter(user=request.user)
+    
 
     template = 'profiles/profile.html'
     context = {
-        'form': form,
-        'wishlist': wishlist.product.all(),
+        'form': form,     
         'orders': orders,
         'on_profile_page': True
     }
-
+    if wishlist:
+        wishlist_objects = wishlist.product.all()
+        context['wishlist'] = wishlist_objects
     return render(request, template, context)
 
 
