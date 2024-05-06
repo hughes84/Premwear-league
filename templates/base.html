@@ -11,6 +11,9 @@
     {% endblock %}
 
     {% block extra_meta %}
+        <meta name="description" content="Learn more about the Premwear League - your trusted source for Premier League products. Discover our mission, values, and commitment to providing a diverse range of high-quality sportswear products and accessories.">
+        <meta name="keywords" content="about us, profile, account, FAQ, sitemap, shipping, help, terms, conditions, Premwear, mission, values, accessories">
+  
     {% endblock %}
 
     {% block corecss %}
@@ -22,14 +25,14 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
     {% endblock %}
 
-    
+    {% block favicon %}
         <link rel="icon" sizes="192x192" href="{% static 'images/favicon/logo192.png' %}">
         <link rel="apple-touch-icon" sizes="180x180" href="{% static 'images/favicon/applelogo.png' %}">
         <link rel="icon" href="{% static 'images/favicon/favicon.ico' %}" type="image/x-icon">
         <link rel="icon" sizes="32x32" href="{% static 'images/favicon/logo32.png' %}">
         <link rel="icon" sizes="16x16" href="{% static 'images/favicon/logo16.png' %}">
         <link rel="icon" sizes="32x32" href="{% static 'images/favicon/logo512.png' %}">
-    
+    {% endblock %}
 
     {% block extra_css %}
     {% endblock %}
