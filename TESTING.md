@@ -37,3 +37,13 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 | home.css | ![screenshot](docs/w3c/home-css.png) | Pass: No Errors |
 
 
+### JavaScript
+
+I have used the recommended [JShint Validator](https://jshint.com) to validate all of my JS files.
+
+| File | Screenshot | Notes |
+| --- | --- | --- |
+| stripe.js | ![screenshot](docs/jshint/stripe-js.png) | Pass: No Errors |
+| home.js | ![screenshot](docs/jshint/home-js.png) | Pass: No Errors |
+
+
