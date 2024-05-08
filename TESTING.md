@@ -13,7 +13,7 @@ I have validated all of my code using the recommended tools for each language.
 I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
 
 | Page | Screenshot | Notes |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | Home | ![screenshot](docs/w3c/home-page.png) | Pass: No Errors |
 | All Products | ![screenshot](docs/w3c/products-page.png) | Pass: No Errors |
 | Single Product | ![screenshot](docs/w3c/single-product.png) | Pass: No Errors |
@@ -25,5 +25,15 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 | Checkout | ![screenshot](docs/w3c/checkout-page.png) | Pass: No Errors |
 | Sitemap.html | ![screenshot](docs/w3c/sitemap-page.png) | Pass: No Errors |
 | About page | ![screenshot](docs/w3c/about-page.png) | Pass: No Errors |
+
+
+### CSS
+
+I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
+
+| File | Screenshot | Notes |
+| --- | --- | --- |
+| base.css | ![screenshot](docs/w3c/base-css.png) | Pass: No Errors |
+| home.css | ![screenshot](docs/w3c/home-css.png) | Pass: No Errors |
 
 
