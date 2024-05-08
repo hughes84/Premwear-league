@@ -50,7 +50,7 @@ In essence, the website prioritizes simplicity and transparency, aiming to provi
 17. [Ecommerce Business Model](#ecommerce-business-model)
 18. [Sitemap](#sitemap)
 19. [Newsletter Marketing](#newsletter-marketing)
-20. [Ecommerce Business Model](#ecommerce-business-model)
+20. [Testing](#testing)
 
 
 ## Project Goals
@@ -546,3 +546,8 @@ I set the email address to be unique to avoid users signing up multiple times wi
 
 Once a user signs up, I used the `send_mail()` functionality to trigger a welcome email for the user to acknowledge that they've successfully signed up for the newsletter.
 
+[Back to Table of Contents](#table-of-contents)
+
+## Testing
+
+For all testing, please refer to the [TESTING.md](TESTING.md) file.
