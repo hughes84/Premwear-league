@@ -1,5 +1,6 @@
 from .forms import NewsletterSubscriptionForm
 
+
 def newsletter_form(request):
     """
     Get Newsletter Form
@@ -9,4 +10,4 @@ def newsletter_form(request):
     Returns:
         dict: A dictionary containing the newsletter form.
     """
-    return {'newsletter_form': NewsletterSubscriptionForm()}
+    return {"newsletter_form": NewsletterSubscriptionForm()}

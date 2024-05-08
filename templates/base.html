@@ -2,8 +2,8 @@
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
 
+<head>
     {% block meta %}
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="utf-8">
@@ -13,49 +13,59 @@
     {% endblock %}
 
     {% block extra_meta %}
-        <meta name="description" content="Learn more about the Premwear League - your trusted source for Premier League products. Discover our mission, values, and commitment to providing a diverse range of high-quality sportswear products and accessories.">
-        <meta name="keywords" content="sports, sportswear, hats, scarf, flags, jersey, about us, profile, account, FAQ, sitemap, shipping, help, terms, conditions, Premwear, mission, values, accessories">
+    <meta name="description"
+        content="Learn more about the Premwear League - your trusted source for Premier League products. Discover our mission, values, and commitment to providing a diverse range of high-quality sportswear products and accessories.">
+    <meta name="keywords"
+        content="sports, sportswear, hats, scarf, flags, jersey, about us, profile, account, FAQ, sitemap, shipping, help, terms, conditions, Premwear, mission, values, accessories">
     {% endblock %}
 
     {% block corecss %}
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap">
-        <link rel="stylesheet" href="{% static 'css/base.css' %}">
-        <link rel="stylesheet" href="{% static 'css/home.css' %}">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
     {% endblock %}
 
     {% block favicon %}
-        <link rel="icon" sizes="192x192" href="{% static 'images/favicon/logo192.png' %}">
-        <link rel="apple-touch-icon" sizes="180x180" href="{% static 'images/favicon/applelogo.png' %}">
-        <link rel="icon" href="{% static 'images/favicon/favicon.ico' %}" type="image/x-icon">
-        <link rel="icon" sizes="32x32" href="{% static 'images/favicon/logo32.png' %}">
-        <link rel="icon" sizes="16x16" href="{% static 'images/favicon/logo16.png' %}">
-        <link rel="icon" sizes="32x32" href="{% static 'images/favicon/logo512.png' %}">
+    <link rel="icon" sizes="192x192" href="{% static 'images/favicon/logo192.png' %}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'images/favicon/applelogo.png' %}">
+    <link rel="icon" href="{% static 'images/favicon/favicon.ico' %}" type="image/x-icon">
+    <link rel="icon" sizes="32x32" href="{% static 'images/favicon/logo32.png' %}">
+    <link rel="icon" sizes="16x16" href="{% static 'images/favicon/logo16.png' %}">
+    <link rel="icon" sizes="32x32" href="{% static 'images/favicon/logo512.png' %}">
     {% endblock %}
 
     {% block extra_css %}
     {% endblock %}
 
     {% block corejs %}
-        <script src="https://kit.fontawesome.com/e9c73d7092.js" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <script async src="{% static 'js/home.js' %}"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
-        <!-- Stripe -->
-        <script src="https://js.stripe.com/v3/"></script>
+    <script src="https://kit.fontawesome.com/e9c73d7092.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script async src="{% static 'js/home.js' %}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+    <!-- Stripe -->
+    <script src="https://js.stripe.com/v3/"></script>
     {% endblock %}
 
     {% block extra_js %}
     {% endblock %}
 
     <title>Premwear League {% block extra_title %}{% endblock %}</title>
-  
-    </head>
-  <body>
+
+</head>
+
+<body>
     <header class="container-fluid fixed-top">
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
@@ -66,7 +76,8 @@
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <form method="GET" action="{% url 'products' %}">
                     <div class="input-group w-100">
-                        <input class="form-control border border-black rounded-0" type="text" name="q" placeholder="Search our site">
+                        <input class="form-control border border-black rounded-0" type="text" name="q"
+                            placeholder="Search our site">
                         <div class="input-group-append">
                             <button class="form-control btn btn-black border border-black rounded-0" type="submit">
                                 <span class="icon">
@@ -80,7 +91,8 @@
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item dropdown">
-                        <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
                                 <div><i class="fas fa-user fa-lg"></i></div>
                                 <p class="my-0">My Account</p>
@@ -88,26 +100,27 @@
                         </a>
                         <div class="dropdown-menu border-0" aria-labelledby="user-options">
                             {% if request.user.is_authenticated %}
-                                {% if request.user.is_superuser %}
-                                    <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
-                                {% endif %}
-                                <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
-                                <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+                            {% if request.user.is_superuser %}
+                            <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
+                            {% endif %}
+                            <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
+                            <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
                             {% else %}
-                                <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-                                <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+                            <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
+                            <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
                             {% endif %}
                         </div>
                     </li>
                     <li class="list-inline-item">
-                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_bag' %}">
+                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
+                            href="{% url 'view_bag' %}">
                             <div class="text-center">
                                 <div><i class="fas fa-shopping-bag fa-lg"></i></div>
                                 <p class="my-0">
                                     {% if grand_total %}
-                                        €{{ grand_total|floatformat:2 }}
+                                    €{{ grand_total|floatformat:2 }}
                                     {% else %}
-                                        €0.00
+                                    €0.00
                                     {% endif %}
                                 </p>
                             </div>
@@ -118,7 +131,8 @@
         </div>
         <div class="row bg-white">
             <div class="navbar navbar-expand-lg navbar-light w-100">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
+                    aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 {% include 'includes/mobile_top_header.html' %}
@@ -127,69 +141,71 @@
         </div>
         <div id="delivery-banner" class="row text-center">
             <div class="col bg-black text-white">
-                <h4 class="logo-font my-1">Free delivery on orders over €{{ free_delivery_threshold }}!</h4>                
-            </div>            
+                <h4 class="logo-font my-1">Free delivery on orders over €{{ free_delivery_threshold }}!</h4>
+            </div>
         </div>
     </header>
     <main class="{% block mainclass %} {% endblock %}">
 
-    
 
-    {% if messages %}
+
+        {% if messages %}
         <div class="message-container">
             {% for message in messages %}
-                {% with message.level as level %}
-                    {% if level == 40 %}
-                        {% include 'includes/toasts/toast_error.html' %}
-                    {% elif level == 30 %}
-                        {% include 'includes/toasts/toast_warning.html' %}
-                    {% elif level == 25 %}
-                        {% include 'includes/toasts/toast_success.html' %}
-                    {% else %}
-                        {% include 'includes/toasts/toast_info.html' %}
-                    {% endif %}
-                {% endwith %}
+            {% with message.level as level %}
+            {% if level == 40 %}
+            {% include 'includes/toasts/toast_error.html' %}
+            {% elif level == 30 %}
+            {% include 'includes/toasts/toast_warning.html' %}
+            {% elif level == 25 %}
+            {% include 'includes/toasts/toast_success.html' %}
+            {% else %}
+            {% include 'includes/toasts/toast_info.html' %}
+            {% endif %}
+            {% endwith %}
             {% endfor %}
         </div>
-    {% endif %}
+        {% endif %}
 
-    {% block page_header %}
-    {% endblock %}
+        {% block page_header %}
+        {% endblock %}
 
-    {% block content %}
-    {% endblock %}
-</main>
-<footer>
-{% block footer_extra %}
-    {% endblock %}
-{% include 'includes/footer.html' %}
-</footer>
+        {% block content %}
+        {% endblock %}
+    </main>
+    <footer>
+        {% block footer_extra %}
+        {% endblock %}
+        {% include 'includes/footer.html' %}
+    </footer>
     {% block postloadjs %}
     <script>
         $('.toast').toast('show');
         // Handle newsletter form submission via AJAX
-        $('.sub').click(function(e) {
-          e.preventDefault();
-          let nlMsg = $('.nl-msg')
-          nlMsg.empty()
+        $('.sub').click(function (e) {
+            e.preventDefault();
+            let nlMsg = $('.nl-msg')
+            nlMsg.empty()
 
-          let url = $(this).data('url')
+            let url = $(this).data('url')
 
-          $.ajax({
-              type: 'POST',
-              url: url,
-              data: $('#nl_form').serialize(),
-              success: function(data) {
-                nlMsg.prepend(`<div class="bg-${data.status} text-white"><p> ${data.message} </p></div>`);
-              },
-              error: function(xhr, textStatus, errorThrown) {
-                nlMsg.prepend('<div class="bg-danger text-white"><p>An error occurred. Please try again.</p></div>');
-              }
-          });
+            $.ajax({
+                type: 'POST',
+                url: url,
+                data: $('#nl_form').serialize(),
+                success: function (data) {
+                $('.nl-input-con').find('input').val('');
+                    nlMsg.prepend(`<div class="bg-${data.status} text-white"><p> ${data.message} </p></div>`);
+                },
+                error: function (xhr, textStatus, errorThrown) {
+                    nlMsg.prepend('<div class="bg-danger text-white"><p>An error occurred. Please try again.</p></div>');
+                }
+            });
         });
     </script>
     {% endblock %}
 
-    
-  </body>
+
+</body>
+
 </html>

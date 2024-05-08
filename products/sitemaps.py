@@ -1,6 +1,7 @@
 from .models import Product
 from django.contrib.sitemaps import Sitemap
 
+
 class ProductSitemap(Sitemap):
     changefreq = "weekly"
     priority = 0.9
@@ -24,4 +25,4 @@ class ProductSitemap(Sitemap):
         Note:
         Modify this based on your URL structure.
         """
-        return f'/products/{item.id}/'
+        return f"/products/{item.id}/"

@@ -47,3 +47,37 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 | home.js | ![screenshot](docs/jshint/home-js.png) | Pass: No Errors |
 
 
+### Python
+
+I have used the recommended [Black](https://pypi.org/project/black/) to validate all of my Python files.
+
+| File | Screenshot | Notes |
+| --- | --- | --- |
+| about/views.py | ![screenshot](docs/ci-linter/about-views.png) | Pass: No Errors |
+| about/urls.py | ![screenshot](docs/ci-linter/about-urls.png) | Pass: No Errors |
+| about/models.py | ![screenshot](docs/ci-linter/about-models.png) | Pass: No Errors |
+| bag/contexts.py | ![screenshot](docs/ci-linter/bag-contexts.png) | Pass: No Errors |
+| bag/urls.py | ![screenshot](docs/ci-linter/bag-urls.png) | Pass: No Errors |
+| bag/views.py | ![screenshot](docs/ci-linter/bag-views.png) | Pass: No Errors |
+| checkout/urls.py | ![screenshot](docs/ci-linter/checkout-urls.png) | Pass: No Errors |
+| checkout/views.py | ![screenshot](docs/ci-linter/checkout-views.png) | Pass: No Errors |
+| checkout/models.py | ![screenshot](docs/ci-linter/checkout-models.png) | Pass: No Errors |
+| checkout/forms.py | ![screenshot](docs/ci-linter/checkout-forms.png) | Pass: No Errors |
+| checkout/webhooks.py | ![screenshot](docs/ci-linter/checkout-webhooks.png) | Pass: No Errors |
+| checkout/webhook_handler.py | ![screenshot](docs/ci-linter/checkout-webhookhandler.png) | Pass: No Errors |
+| contact/form.py | ![screenshot](docs/ci-linter/contact-form.png) | Pass: No Errors |
+| contact/models.py | ![screenshot](docs/ci-linter/contact-models.png) | Pass: No Errors |
+| contact/views.py | ![screenshot](docs/ci-linter/contact-views.png) | Pass: No Errors |
+| home/urls.py | ![screenshot](docs/ci-linter/home-urls.png) | Pass: No Errors |
+| home/views.py | ![screenshot](docs/ci-linter/home-views.png) | Pass: No Errors |
+| newsletter/models.py | ![screenshot](docs/ci-linter/newsletter-models.png) | Pass: No Errors |
+| newsletter/forms.py | ![screenshot](docs/ci-linter/newsletter-forms.png) | Pass: No Errors |
+| newsletter/views.py | ![screenshot](docs/ci-linter/newsletter-views.png) | Pass: No Errors |
+| premwear_league/views.py | ![screenshot](docs/ci-linter/premwear_league-views.png) | Pass: No Errors |
+| premwear_league/urls.py | ![screenshot](docs/ci-linter/premwear_league-urls.png) | Pass: No Errors |
+| premwear_league/sitemaps.py | ![screenshot](docs/ci-linter/premwear_league-sitemaps.png) | Pass: No Errors |
+| products/models.py | ![screenshot](docs/ci-linter/products-models.png) | Pass: No Errors |
+| products/forms.py | ![screenshot](docs/ci-linter/products-forms.png) | Pass: No Errors |
+| products/urls.py | ![screenshot](docs/ci-linter/products-urls.png) | Pass: No Errors |
+| products/views.py | ![screenshot](docs/ci-linter/products-views.png) | Pass: No Errors |
+| 

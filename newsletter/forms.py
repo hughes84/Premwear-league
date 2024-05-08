@@ -1,5 +1,6 @@
 from django import forms
 
+
 class NewsletterSubscriptionForm(forms.Form):
     """
     Newsletter Subscription Form
@@ -8,6 +9,7 @@ class NewsletterSubscriptionForm(forms.Form):
     addresses for newsletter subscriptions.
     """
 
-    email = forms.EmailField(label='Email:',
-                             widget=forms.TextInput(attrs={'id':
-                                                           'email_newsletter'}))
+    email = forms.EmailField(
+        label="Email:", widget=forms.TextInput(
+            attrs={"id": "email_newsletter"})
+    )

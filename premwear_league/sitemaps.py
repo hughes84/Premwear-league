@@ -9,6 +9,7 @@ class StaticViewSitemap(sitemaps.Sitemap):
     This sitemap includes static views such as home,
     about_us, contact_us, etc.
     """
+
     priority = 0.5
     changefreq = "monthly"
 
@@ -19,10 +20,11 @@ class StaticViewSitemap(sitemaps.Sitemap):
         Returns:
             list: List of static view names.
         """
-        return ["home",
-                "about",
-                "contact_us",
-                ]
+        return [
+            "home",
+            "about",
+            "contact_us",
+        ]
 
     def location(self, item):
         """

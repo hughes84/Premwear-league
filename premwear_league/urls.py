@@ -13,6 +13,7 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+
 from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
@@ -25,24 +26,29 @@ from .sitemaps import StaticViewSitemap
 
 
 sitemaps = {
-    'static': StaticViewSitemap,
-    'products': ProductSitemap,
+    "static": StaticViewSitemap,
+    "products": ProductSitemap,
     # Add more sitemaps here
 }
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('accounts/', include('allauth.urls')),
-    path('', include('home.urls')),
-    path('products/', include('products.urls')),
-    path('bag/', include('bag.urls')),
-    path('checkout/', include('checkout.urls')),
-    path('profile/', include('profiles.urls')),
-    path('newsletter/', include('newsletter.urls')),
-    path('contact/', include('contact.urls')),
-    path('about/', include('about.urls')),
-    path('sitemap/', include('sitemap.urls')),
-    path('sitemap.xml', sitemap, {'sitemaps': sitemaps}, name = 'django.contrib.sitemaps.views.sitemap'),
+    path("admin/", admin.site.urls),
+    path("accounts/", include("allauth.urls")),
+    path("", include("home.urls")),
+    path("products/", include("products.urls")),
+    path("bag/", include("bag.urls")),
+    path("checkout/", include("checkout.urls")),
+    path("profile/", include("profiles.urls")),
+    path("newsletter/", include("newsletter.urls")),
+    path("contact/", include("contact.urls")),
+    path("about/", include("about.urls")),
+    path("sitemap/", include("sitemap.urls")),
+    path(
+        "sitemap.xml",
+        sitemap,
+        {"sitemaps": sitemaps},
+        name="django.contrib.sitemaps.views.sitemap",
+    ),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-handler404 = 'premwear_league.views.handler404'
+handler404 = "premwear_league.views.handler404"

@@ -14,19 +14,20 @@ Methods:
     clean_email(): Custom method to perform
     additional validation on the email field.
 """
+
 from django import forms
 from .models import ContactUs
+
 
 class ContactForm(forms.ModelForm):
     """
     class for contact form
     """
+
     class Meta:
         model = ContactUs
-        fields = ['name', 'email', 'message']
-        widgets = {
-            'message': forms.Textarea(attrs={'rows': 5})
-        }
+        fields = ["name", "email", "message"]
+        widgets = {"message": forms.Textarea(attrs={"rows": 5})}
 
     def clean_email(self):
         """
@@ -41,6 +42,5 @@ class ContactForm(forms.ModelForm):
             forms.ValidationError: If the email
             does not meet the specified validation criteria.
         """
-        email = self.cleaned_data.get('email')
+        email = self.cleaned_data.get("email")
         return email
-    
