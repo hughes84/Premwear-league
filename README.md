@@ -57,6 +57,8 @@ In essence, the website prioritizes simplicity and transparency, aiming to provi
 23. [Gmail](#gmail)
 24. [Heroku Deployment](#heroku-deployment)
 25. [Local Deployment](#local-deployment)
+26. [Cloning](#cloning)
+27. [](#)
 
 
 
@@ -764,3 +766,16 @@ Once the project is cloned or forked, in order to run it locally, you'll need to
 If you'd like to backup your database models, use the following command for each model you'd like to create a fixture for:
 - `python3 manage.py dumpdata your-model > your-model.json`
 - *repeat this action for each model you wish to backup*
+
+#### Cloning
+
+You can clone the repository by following these steps:
+
+1. Go to the [GitHub repository](https://github.com/hughes84/Premwear-league) 
+2. Locate the Code button above the list of files and click it 
+3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash or Terminal
+5. Change the current working directory to the one where you want the cloned directory
+6. In your IDE Terminal, type the following command to clone my repository:
+	- `git clone https://github.com/hughes84/Premwear-league.git`
+7. Press Enter to create your local clone.
