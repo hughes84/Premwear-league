@@ -3,12 +3,16 @@ html {
 }
 
 .homepage-styles {
-    background: url('/media/prem_top.webp') no-repeat center center;
+    background: url('/media/prem_top.png') no-repeat center center;
     background-size: cover;
     height: 100vh !important;
     margin-top: 130px;
     color: #555;
     font-family: 'Lato';
+}
+
+label {
+    color: white;
 }
 
 main {
@@ -242,7 +246,8 @@ a.category-badge > span.badge:hover {
 }
 
 .allauth-form-inner-content a {
-	color: #17a2b8; /* text-info */
+	color: #b81717; /* text-info */
+    font-weight: 700;
 }
 
 /* Product Form */
