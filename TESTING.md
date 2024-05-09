@@ -315,7 +315,26 @@ As a site admin I want to be able to share the business on social media so that 
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| On footer click on Facebook link | User is redirected to sites Facebook page | Sites Facebook page opens | Works as expected |
+| On footer click on Facebook link | User is redirected to sites Facebook page | Sites Facebook page | Works as expected |
 <br><br>
+
+
+## Lighthouse Audit
+
+I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
+
+| Page | Screenshot | Notes |
+| --- | --- | --- |
+| Home | ![screenshot](docs/lighthouse/home.png) | No major warnings |
+| Products | ![screenshot](docs/lighthouse/products.png) | Some minor warnings |
+| Product Details | ![screenshot](docs/lighthouse/product-detail.png) | No major warnings |
+| Contact | ![screenshot](docs/lighthouse/contact.png) | No major warnings |
+| Bag | ![screenshot](docs/lighthouse/bag.png) | No major warnings |
+| Checkout | ![screenshot](docs/lighthouse/checkout.png) | No major warnings |
+| Profile | ![screenshot](docs/lighthouse/profile.png) | No major warnings |
+| Sitemap | ![screenshot](docs/lighthouse/sitemap.png) | No major warnings |
+| Sign Up | ![screenshot](docs/lighthouse/signup.png) | No major warnings |
+| Sign In | ![screenshot](docs/lighthouse/signin.png) | No major warnings |
+| Sign Out | ![screenshot](docs/lighthouse/signout.png) | No major warnings |
 
 
