@@ -80,4 +80,10 @@ I have used the recommended [Black](https://pypi.org/project/black/) to validate
 | products/forms.py | ![screenshot](docs/ci-linter/products-forms.png) | Pass: No Errors |
 | products/urls.py | ![screenshot](docs/ci-linter/products-urls.png) | Pass: No Errors |
 | products/views.py | ![screenshot](docs/ci-linter/products-views.png) | Pass: No Errors |
-| 
+| profiles/forms.py | ![screenshot](docs/ci-linter/profiles-forms.png) | Pass: No Errors |
+| profiles/models.py | ![screenshot](docs/ci-linter/profiles-models.png) | Pass: No Errors |
+| profiles/urls.py | ![screenshot](docs/ci-linter/profiles-urls.png) | Pass: No Errors |
+| profiles/views.py | ![screenshot](docs/ci-linter/profiles-views.png) | Pass: No Errors |
+| sitemap/views.py | ![screenshot](docs/ci-linter/sitemap-views.png) | Pass: No Errors |
+| sitemap/urls.py | ![screenshot](docs/ci-linter/sitemap-urls.png) | Pass: No Errors |
+
