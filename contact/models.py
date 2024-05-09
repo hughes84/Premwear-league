@@ -11,3 +11,6 @@ class ContactUs(models.Model):
 
     def __str__(self):
         return f"Contact Us Form - {self.email}"
+    
+    class Meta:
+        verbose_name_plural = "Contact Us Form"
