@@ -60,7 +60,7 @@ In essence, the website prioritizes simplicity and transparency, aiming to provi
 22. [Cloning](#cloning)
     - [Forking](#forking)
 23. [Credits](#credits)
-    - [Acknowledgements](acknowledgements)
+    - [Acknowledgements](#acknowledgements)
 
 
 
