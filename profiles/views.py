@@ -70,7 +70,7 @@ def add_to_wishlist(request, product_id):
     if wishlist_exists:
         # Product is already in the wishlist, handle accordingly (e.g., show a message)
         wishlist.product.remove(product)
-        messages.success(request, "product removed from wishlist")
+        messages.info(request, "product removed from wishlist")
         return redirect(redirect_url)
     # Add the product to the user's wishlist
 
@@ -78,5 +78,5 @@ def add_to_wishlist(request, product_id):
     # Optionally, you can show a success message or redirect to another page
     # return redirect('product_detail', product_id=product_id)  # Redirect to product detail page
     redirect_url = request.POST.get("redirect_url")
-    messages.success(request, "product added to wishlist")
+    messages.info(request, "product added to wishlist")
     return redirect(redirect_url)
