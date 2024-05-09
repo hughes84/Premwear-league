@@ -51,6 +51,7 @@ In essence, the website prioritizes simplicity and transparency, aiming to provi
 18. [Sitemap](#sitemap)
 19. [Newsletter Marketing](#newsletter-marketing)
 20. [Testing](#testing)
+20. [Deployment](#deployment)
 
 
 ## Project Goals
@@ -551,3 +552,8 @@ Once a user signs up, I used the `send_mail()` functionality to trigger a welcom
 ## Testing
 
 For all testing, please refer to the [TESTING.md](TESTING.md) file.
+
+## Deployment
+
+The live deployed application can be found deployed on [Heroku](https://premwear-league-b168782f243c.herokuapp.com/).
+
