@@ -59,7 +59,8 @@ In essence, the website prioritizes simplicity and transparency, aiming to provi
 25. [Local Deployment](#local-deployment)
 26. [Cloning](#cloning)
 27. [Forking](#forking)
-28. [](#)
+28. [Credits](#credits)
+    - [Acknowledgements](acknowledgements)
 
 
 
@@ -789,3 +790,11 @@ You can fork this repository by using the following steps:
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/hughes84/Premwear-league)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
+
+## Credits
+
+All snippets are credited in comments in the relevant files or acknowledgements below.
+
+### Acknowledgements
+
+Special thanks to my mentor Adegbenga Adeye for his guidance and help throughout. My course facilitator at Code Institute, Laura Mayock for continued support on weekly stand up calls. My cohort colleagues for taking time out of their busy schedules to join me on several study group sessions and those who took part.
