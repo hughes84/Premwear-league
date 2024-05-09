@@ -173,3 +173,149 @@ Defensive programming was manually tested with the below user acceptance testing
 | | Click on Subscribe button on filled newsletter form | Alert message lets user know they have signed up for the mailing list and welcome email is sent to address provided | Pass | |
 
 
+## User Story and Feature Testing
+All the user stories were tested manually, that including all the representative features, and were described bellow with a summary of the steps made for demonstrating the validation of the tests: <br>
+
+
+### Epics:
+<hr>
+
+**User Story #2:**<br>
+As a **visitor** I want to be able to establish what products are available on the site.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Click selection on Nav Bar | Browse selected category  | Products displayed | Works as expected |
+<br><br>
+
+**User Story #3:**<br>
+As a **visitor** I want to browse products using easy-to-follow navigation
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Click All products | Choose selected navigation | Products displayed | Works as expected |
+<br><br>
+
+**User Story #4:**<br>
+As a **visitor** I want to be able to purchase selected products.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Choose selected products/s | Click Go to secure checkout | Enter personal details and complete order button | Works as expected |
+
+<br><br>
+
+**User Story #5:**<br>
+As a **visitor** , I want to be able to create a new account so that I can save my order details and favorite products .
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Click My Account then click Register | Enter personal details as requested | Verify email adress and sign in | Works as expected |
+<br><br>
+
+**User Story #6:**<br>
+As a **User** , I want to be able to update my profile information, including shipping address and contact details.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Log in | On My Account click on My Profile | Update information as desired | Works as expected | 
+<br><br>
+
+**User Story #7:**<br>
+As a **user** , I want to be able to log in and log out of my account and change my password or email address.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| On my Account click login | On login page enter username and email  | User is logged in | Works as expected |
+| When logged in, on my Account click logout | On sign out psge click sign out button  | User signed out | Works as expected |
+<br><br>
+
+**User Story #8:**<br>
+As a **user** , I want to view details of my previous orders.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Login and go to My Profile | Previous orders are displayed here | Previous orders are displayed here | Works as expected |
+<br><br>
+
+**User Story #9:**<br>
+As a **staff user**, I want to add products to the inventory.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Login and if a staff user click My Profile and Product Management | Add product details and select image | New product is added | Works as expected |
+<br><br>
+
+**User Story #10:**<br>
+As a **staff user**, I want to edit or delete existing products in the inventory.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Go to admin section in backend and click products| Select chosen product and edit or delete | Product is edited or deleted | Works as expected |
+<br><br>
+
+**User Story #12:**<br>
+As a **superuser** , I want to receive details of customer orders to be fulfilled.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Go to admin section in backend and click orders | Superuser can see orders here with order number, date and time | Orders displayed | Works as expected |
+<br><br>
+
+**User Story #13:**<br>
+As a **superuser** , I want to add or edit product categories.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** | 
+|-------------|------------|---------------------|-------------------|
+| Go to admin section in backend and click categories | Chose selected category and edit or delete | Category chosen edited/deleted | Works as expected |
+<br><br>
+
+**User Story #14:**<br>
+As a **superuser** , I want to add or remove admins/users.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Go to admin section in backend and click users | Select admin/user to add or remove and update status or delete | Admins/User added/removed | Works as expected |
+<br><br>
+
+**User Story #15:**<br>
+As a **visitor** I want to be able to message the admin through a contact form.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Click contact link in footer | Fill out contact form and submit | User receives success message and superuser receives email | Works as expected |
+<br><br>
+
+**User Story #16:**<br>
+As a **visitor** I want to be able to sign up for a newsletter. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Enter email address in Newsletter box in footer and hit subscribe | User receives success message and success email | Success message and email message received | Works as expected |
+<br><br>
+
+**User Story #17:**<br>
+As a **user**, I want to be able to create and manage a wish list in my profile, so that I can save products I'm interested in for future reference or purchase. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| When logged in, on any selected product click on heart to add to wishlist | In My Profile, view, edit, delete wishlist | Wishlist displayed, can be edited or deleted | Works as expected |
+<br><br>
+
+**User Story #18:**<br>
+As a site **admin** i want a sitemap.xml so search engines understand the structure of the website and index its content more efficiently.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| In footer click Sitemap link | View of SEO | Redirected to SEO page | Works as expected |
+<br><br>
+
+**User Story #19:**<br>
+As a site admin I want to be able to share the business on social media so that I can reach and market to a larger audience.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| On footer click on Facebook link | User is redirected to sites Facebook page | Sites Facebook page opens | Works as expected |
+<br><br>
+
+
