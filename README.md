@@ -574,6 +574,8 @@ This project uses [AWS](https://aws.amazon.com) to store media and static files 
 Once you've created an AWS account and logged-in, follow these series of steps to get your project connected.
 Make sure you're on the **AWS Management Console** page.
 
+[Back to Table of Contents](#table-of-contents)
+
 #### S3 Bucket
 
 - Search for **S3**.
@@ -634,6 +636,8 @@ Make sure you're on the **AWS Management Console** page.
 - From the **Access Control List (ACL)** section, click "Edit" and enable **List** for **Everyone (public access)**, and accept the warning box.
 	- If the edit button is disabled, you need to change the **Object Ownership** section above to **ACLs enabled** (mentioned above).
 
+[Back to Table of Contents](#table-of-contents)
+
 ### Stripe API
 
 This project uses [Stripe](https://stripe.com) to handle the ecommerce payments.
@@ -675,6 +679,8 @@ Once you've created a Gmail (Google) account and logged-in, follow these series 
 	- Save this somewhere locally, as you cannot access this key again later!
 	- `EMAIL_HOST_PASS` = user's 16-character API key
 	- `EMAIL_HOST_USER` = user's own personal Gmail email address
+
+[Back to Table of Contents](#table-of-contents)
 
 ### Heroku Deployment
 
@@ -727,6 +733,8 @@ Or:
 
 The project should now be connected and deployed to Heroku!
 
+[Back to Table of Contents](#table-of-contents)
+
 ### Local Deployment
 
 This project can be cloned or forked in order to make a local copy on your own system.
@@ -769,6 +777,8 @@ If you'd like to backup your database models, use the following command for each
 - `python3 manage.py dumpdata your-model > your-model.json`
 - *repeat this action for each model you wish to backup*
 
+[Back to Table of Contents](#table-of-contents)
+
 #### Cloning
 
 You can clone the repository by following these steps:
@@ -798,3 +808,5 @@ All snippets are credited in comments in the relevant files or acknowledgements 
 ### Acknowledgements
 
 Special thanks to my mentor Adegbenga Adeye for his guidance and help throughout. My course facilitator at Code Institute, Laura Mayock for continued support on weekly stand up calls. My cohort colleagues for taking time out of their busy schedules to join me on several study group sessions and those who took part.
+
+[Back to Table of Contents](#table-of-contents)
