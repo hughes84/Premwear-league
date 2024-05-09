@@ -58,7 +58,8 @@ In essence, the website prioritizes simplicity and transparency, aiming to provi
 24. [Heroku Deployment](#heroku-deployment)
 25. [Local Deployment](#local-deployment)
 26. [Cloning](#cloning)
-27. [](#)
+27. [Forking](#forking)
+28. [](#)
 
 
 
@@ -779,3 +780,12 @@ You can clone the repository by following these steps:
 6. In your IDE Terminal, type the following command to clone my repository:
 	- `git clone https://github.com/hughes84/Premwear-league.git`
 7. Press Enter to create your local clone.
+
+#### Forking
+
+By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository.
+You can fork this repository by using the following steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/hughes84/Premwear-league)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
