@@ -338,3 +338,18 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | Sign Out | ![screenshot](docs/lighthouse/signout.png) | No major warnings |
 
 
+## Bugs
+
+**Fixed Bugs**
+
+| Bug | Expected behavior | Fix | Status |
+| --- | --- | --- | --- |
+| When processing the payment using secure checkout, Django error "AttributeError at /checkout/ 'NoneType' object has no attribute 'split'" displayed | The secure payment should complete, the order summary be displayed and a success toast message with the order number appear | Typo in checkout/webhook_handler.py | Closed |
+| When deleting the product quantity value in the input field and clicking the ADD TO SHOPPING BAG button causes an error | Be a positive integer between 1 & 99 | Added required attribute to the quantity input tag | Closed |
+| When selecting the sorting options by Name (A-Z) or Name (Z-A) a Django error occurs | The products should be sorted by name in ascending or descending order based on the user selection | Found a typo in Products view.py | Closed |
+| When logging in to site, success message appears with shopping bag joined | Success message appear by itself | Changed conditional logic in {% if %} tag so code will execute if all three sub-conditions are True simultaneously | Closed |
+| When in shopping bag and try to logout of account, dropdown buttons on My Account not working and cursor appearing | Pointer to appear and My Profile and logout buttons work | Removed async in script tags in base.html | Closed |
+
+## Unfixed Bugs
+
+There are no known bugs unfixed 
