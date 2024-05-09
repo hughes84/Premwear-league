@@ -87,3 +87,13 @@ I have used the recommended [Black](https://pypi.org/project/black/) to validate
 | sitemap/views.py | ![screenshot](docs/ci-linter/sitemap-views.png) | Pass: No Errors |
 | sitemap/urls.py | ![screenshot](docs/ci-linter/sitemap-urls.png) | Pass: No Errors |
 
+## Browser Compatibility
+
+I've tested my deployed project on multiple browsers to check for compatibility issues.
+
+| Browser | Screenshot | Notes |
+| --- | --- | --- |
+| Chrome | ![screenshot](docs/browsers/chrome.png) | Works as expected |
+| Firefox | ![screenshot](docs/browsers/firefox.png) | Works as expected |
+| Edge | ![screenshot](docs/browsers/edge.png) | Works as expected |
+
