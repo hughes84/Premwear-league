@@ -3,7 +3,7 @@ html {
 }
 
 .homepage-styles {
-    background: url('/media/prem_top.png') no-repeat center center;
+    background: url('/media/prem_top.webp') no-repeat center center;
     background-size: cover;
     height: 100vh !important;
     margin-top: 130px;

@@ -90,7 +90,7 @@
                                 {% for product in wishlist %}                              
                                     <tr>                               
                                         <td>
-                                            <a href="{% url 'product_detail' product.id %}">
+                                            <a href="{% url 'product_detail' product.id %}" aria-label="Product image">
                                             <img width="50" src="{{ product.image.url }}">
                                         </a>
                                         </td>

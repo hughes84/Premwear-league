@@ -17,9 +17,9 @@
                     2023/2024 Premiership Sportswear
                 </h1>
                 <div class="my-5">
-                    <h4>
+                    <p class="h4">
                         <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
-                    </h4>
+                    </p>
                 </div>
             </div>
         </div>
@@ -33,7 +33,7 @@
                    <div class="bbb_main_container">
                     <div class="bbb_viewed_title_container">
                         <div class="bbb_viewed_title_container">
-                            <h3 class="bbb_viewed_title">Best selling products</h3>
+                            <p class="bbb_viewed_title h3">Best selling products</p>
                             <div class="bbb_viewed_nav_container">
                                 <div class="bbb_viewed_nav bbb_viewed_prev"><i class="fas fa-chevron-left"></i></div>
                                 <div class="bbb_viewed_nav bbb_viewed_next"><i class="fas fa-chevron-right"></i></div>
@@ -44,7 +44,7 @@
                         <div class="owl-carousel owl-theme bbb_viewed_slider">
                             {% for product in rated %}
                                 <div class="owl-item border border-primary h-100">                                                        
-                                    <a href="{% url 'product_detail' product.id %}" class="text-hover">
+                                    <a href="{% url 'product_detail' product.id %}" class="text-hover" aria-label="Product image">
                                     <div class="bbb_viewed_item discount d-flex flex-column align-items-center justify-content-center text-center">
                                         <div class="bbb_viewed_image"><img src="{{ product.image.url }}" alt="product image"></div>
                                         <div class="bbb_viewed_content text-center">
