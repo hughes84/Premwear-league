@@ -97,3 +97,12 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Firefox | ![screenshot](docs/browsers/firefox.png) | Works as expected |
 | Edge | ![screenshot](docs/browsers/edge.png) | Works as expected |
 
+## Responsiveness
+
+I've tested my deployed project on multiple devices to check for responsiveness and found no issues here is an example
+
+| mobile | ipad | laptop|
+| --- | --- | --- | 
+| ![screenshot](docs/responsive/mobile.png) | ![screenshot](docs/responsive/ipad.png) | ![screenshot](docs/responsive/laptop.png) |
+
+
