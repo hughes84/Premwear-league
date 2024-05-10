@@ -11,10 +11,12 @@
     <div class="email-container" style="margin: 5% 2% 1% 2%; background: #ffffff;">
         <div class="email-body">
             <div class="banner" style="background: rgb(52, 92, 12); color: white; padding: 2em 5em; overflow: hidden;">
+                <!-- Banner section -->
                 <h4 style="margin: 0;">Subscription Successful!</h4>
                 <h1 style="font-family: 'Questrial', sans-serif; font-size: 5em; margin: 0 0 .5em 0;">Premwear League</h1>
             </div>
             <div class="email-content" style="padding: 2em 5em; overflow: hidden;">
+                <!-- Email content section -->
                 <p>Hi {{email}}!</p>
                 <p>Thank you for subscribing. We're so excited to share the latest news and updates about our product with
                     you. If you'd like to learn more, follow us on social media!</p>
@@ -31,6 +33,7 @@
 
 <footer style="text-align: center; margin: 0; padding: 1em;">
     {% with full_url=request.build_absolute_uri %}
+        <!-- Footer section -->
         <a href="{{ full_url }}{% url 'subscribe_newsletter' %}" style="text-decoration: none;">Un-Subscribe</a>
     {% endwith %}
 </footer>
