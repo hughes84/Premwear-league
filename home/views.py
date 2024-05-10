@@ -1,3 +1,6 @@
+"""
+Module for rendering views related to product ratings.
+"""
 from django.shortcuts import render
 from django.db.models import Avg
 from products.models import Product

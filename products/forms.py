@@ -1,3 +1,6 @@
+"""
+Module for working with forms, widgets, and models related to products.
+"""
 from django import forms
 from .widgets import CustomClearableFileInput
 from .models import Product, Category
@@ -6,8 +9,14 @@ from .models import Product, Category
 
 
 class ProductForm(forms.ModelForm):
+    """
+    Form for creating and updating product instances.
+    """
 
     class Meta:
+        """
+        Meta class configuration for the ProductForm.
+        """
         model = Product
         fields = "__all__"
 

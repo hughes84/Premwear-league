@@ -1,8 +1,14 @@
+"""
+Form for capturing order information.
+"""
 from django import forms
 from .models import Order
 
 
 class OrderForm(forms.ModelForm):
+    """
+    Form for capturing order information.
+    """
     class Meta:
         model = Order
         fields = (

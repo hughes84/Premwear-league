@@ -5,6 +5,9 @@ import sys
 
 
 def main():
+    """
+    Main function to run Django management commands from the command line.
+    """
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'premwear_league.settings')
     try:
         from django.core.management import execute_from_command_line

@@ -1,3 +1,6 @@
+"""
+Module for handling views related to sitemaps and categories.
+"""
 from django.shortcuts import render
 from django.views.decorators.http import require_GET
 from premwear_league.urls import sitemaps

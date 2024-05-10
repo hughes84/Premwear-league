@@ -1,3 +1,6 @@
+"""
+Module for interacting with the Django ORM (Object-Relational Mapping) system.
+"""
 from django.db import models
 
 

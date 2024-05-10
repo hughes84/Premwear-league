@@ -1,3 +1,6 @@
+"""
+Module for importing the NewsletterSubscriptionForm from the current directory's forms module.
+"""
 from .forms import NewsletterSubscriptionForm
 
 

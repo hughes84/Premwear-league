@@ -1,3 +1,6 @@
+"""
+Module for working with user profiles and related signals.
+"""
 from django.db import models
 from django.contrib.auth.models import User
 from django.db.models.signals import post_save
@@ -10,7 +13,9 @@ from products.models import Product
 
 
 class WishList(models.Model):
-
+    """
+    Model for storing user wishlists.
+    """
     product = models.ManyToManyField(Product, related_name="product_wishlist")
     user = models.OneToOneField(User, on_delete=models.CASCADE)
 

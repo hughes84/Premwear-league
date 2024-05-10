@@ -1,3 +1,6 @@
+"""
+Module for defining URL patterns for the app's views.
+"""
 from django.urls import path
 from . import views
 

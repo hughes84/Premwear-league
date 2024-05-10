@@ -1,3 +1,6 @@
+"""
+Module for interacting with the Django ORM (Object-Relational Mapping) system.
+"""
 from django.db import models
 
 
@@ -8,6 +11,10 @@ class Category(models.Model):
     """
 
     class Meta:
+        """
+        Meta class configuration for the Category model.
+        Sets the plural name for the model in the admin interface.
+        """
         verbose_name_plural = "Categories"
 
     name = models.CharField(max_length=254)
@@ -17,6 +24,9 @@ class Category(models.Model):
         return self.name
 
     def get_friendly_name(self):
+        """
+        Method to get the friendly name of the category.
+        """
         return self.friendly_name
 
 

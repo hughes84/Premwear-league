@@ -1,3 +1,6 @@
+"""
+Module for generating sitemaps and working with URL reversing.
+"""
 from django.contrib import sitemaps
 from django.urls import reverse
 

@@ -1,3 +1,6 @@
+"""
+Module for handling views related to user profiles.
+"""
 from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
@@ -38,6 +41,9 @@ def profile(request):
 
 
 def order_history(request, order_number):
+    """
+    View function to display order history details.
+    """
     order = get_object_or_404(Order, order_number=order_number)
 
     messages.info(
@@ -59,6 +65,9 @@ def order_history(request, order_number):
 
 @login_required
 def add_to_wishlist(request, product_id):
+    """
+    View function to add a product to the user's wishlist.
+    """
     # Get the product
     product = Product.objects.get(pk=product_id)
     wishlist, created = WishList.objects.get_or_create(user=request.user)

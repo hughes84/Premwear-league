@@ -1,9 +1,19 @@
+"""
+Module for working with forms related to user profiles.
+"""
 from django import forms
 from .models import UserProfile
 
 
-class UserProfileForm(forms.ModelForm):
+class UserProfileForm(forms.ModelForm):#
+    """
+    Form for creating and updating user profile instances.
+    """
     class Meta:
+        """
+        Meta class configuration for the UserProfileForm.
+        Specifies the model and excludes the 'user' field.
+        """
         model = UserProfile
         exclude = ("user",)
 

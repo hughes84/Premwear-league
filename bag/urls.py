@@ -1,3 +1,6 @@
+"""
+URL Configuration for the bag app.
+"""
 from django.urls import path
 from . import views
 

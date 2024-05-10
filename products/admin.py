@@ -1,3 +1,6 @@
+"""
+Module for registering models with the Django admin site.
+"""
 from django.contrib import admin
 from .models import Product, Category
 
@@ -5,6 +8,9 @@ from .models import Product, Category
 
 
 class ProductAdmin(admin.ModelAdmin):
+    """
+    Admin configuration for the Product model.
+    """
     list_display = (
         "sku",
         "name",
@@ -18,6 +24,9 @@ class ProductAdmin(admin.ModelAdmin):
 
 
 class CategoryAdmin(admin.ModelAdmin):
+    """
+    Admin configuration for the Category model.
+    """
     list_display = (
         "friendly_name",
         "name",

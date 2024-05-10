@@ -1,3 +1,6 @@
+"""
+Module for working with Django forms.
+"""
 from django import forms
 
 

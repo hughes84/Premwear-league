@@ -1,12 +1,25 @@
-from .models import Product
+"""
+Module for generating sitemaps for Django site.
+"""
 from django.contrib.sitemaps import Sitemap
+from .models import Product
+
+# pylint: disable=no-member
 
 
 class ProductSitemap(Sitemap):
+    """
+    Sitemap configuration for the Product model.
+    Sets the change frequency and priority for the sitemap.
+    """
     changefreq = "weekly"
     priority = 0.9
 
     def items(self):
+        """
+        Method to get items for the sitemap.
+        Returns all Product objects.
+        """
         return Product.objects.all()
 
     # def lastmod(self, obj):
