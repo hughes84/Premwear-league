@@ -2,6 +2,7 @@
 {% load static %}
 
 {% block page_header %}
+    <!-- Page header -->
     <div class="container header-container">
         <div class="row">
             <div class="col"></div>
@@ -10,6 +11,7 @@
 {% endblock %}
 
 {% block content %}
+    <!-- Overlay -->
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
@@ -23,6 +25,7 @@
 
         <div class="row">
             <div class="col-12 col-md-6">
+                <!-- Form for editing a product -->
                 <form method="POST" action="{% url 'edit_product' product.id %}" class="form mb-2" enctype="multipart/form-data">
                     {% csrf_token %}
                     {% for field in form %}
@@ -33,7 +36,9 @@
                         {% endif %}
                     {% endfor %}
                     <div class="text-right">
+                        <!-- Cancel button -->
                         <a class="btn btn-outline-black rounded-0" href="{% url 'products' %}">Cancel</a>
+                        <!-- Update button -->
                         <button class="btn btn-black rounded-0" type="submit">Update Product</button>
                     </div>
                 </form>
@@ -45,6 +50,7 @@
 {% block postloadjs %}
     {{ block.super }}
     <script>
+        // JavaScript code for handling image selection
         $('#new-image').change(function() {
             var file = $('#new-image')[0].files[0];
             $('#filename').text(`Image will be set to: ${file.name}`);

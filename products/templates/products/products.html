@@ -2,6 +2,7 @@
 {% load static %}
 
 {% block page_header %}
+    <!-- Page header -->
     <div class="container header-container">
         <div class="row">
             <div class="col"></div>
@@ -10,12 +11,14 @@
 {% endblock %}
 
 {% block content %}
+    <!-- Overlay -->
     <div class="overlay"></div>
     <div class="container-fluid">
         <div class="row">
             <div class="col text-center mt-3">
                 <h2 class="logo-font">Products</h2>
                 {% for c in current_categories %}
+                    <!-- Category badges -->
                     <a class="category-badge text-decoration-none" href="{% url 'products' %}?category={{ c.name }}">
                         <span class="p-2 mt-2 badge badge-white text-black rounded-0 border border-dark">{{ c.friendly_name }}</span>
                     </a>
@@ -28,6 +31,7 @@
                 <div class="row mt-1 mb-2">
                     <div class="col-12 col-md-6 my-auto order-md-last d-flex justify-content-center justify-content-md-end">
                         <div class="sort-select-wrapper w-50">
+                            <!-- Sort selector -->
                             <select id="sort-selector" class="custom-select custom-select-sm rounded-0 border border-{% if current_sorting != 'None_None' %}info{% else %}black{% endif %}">
                                 <option value="reset" {% if current_sorting == 'None_None' %}selected{% endif %}>Sort by...</option>
                                 <option value="price_asc" {% if current_sorting == 'price_asc' %}selected{% endif %}>Price (low to high)</option>
@@ -44,6 +48,7 @@
                     <div class="col-12 col-md-6 order-md-first">
                         <p class="text-muted mt-3 text-center text-md-left">
                             {% if search_term or current_categories or current_sorting != 'None_None' %}
+                                <!-- Products home link -->
                                 <span class="small"><a href="{% url 'products' %}">Products Home</a> | </span>
                             {% endif %}
                             {{ products|length }} Products{% if search_term %} found for <strong>"{{ search_term }}"</strong>{% endif %}
@@ -59,7 +64,7 @@
                                         {% csrf_token %}
                                         <input type="hidden" name="redirect_url" value="{% url 'products' %}?category={{ product.category.name }}">
                                         <button aria-label="Add to favorites" class="btn" type="submit"><i class="text-danger fas h4 fa-heart"></i></button>
-                                      </form>
+                                    </form>
                                 </div>
                                 {% if product.image %}
                                 <a href="{% url 'product_detail' product.id %}" aria-label="Product image">
@@ -91,6 +96,7 @@
                                             {% endif %}
                                             {% if request.user.is_superuser %}
                                                 <small class="ml-3">
+                                                    <!-- Edit and delete links for superuser -->
                                                     <a href="{% url 'edit_product' product.id %}">Edit</a> | 
                                                     <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
                                                 </small>
@@ -125,6 +131,7 @@
             </div>
         </div>
     </div>
+    <!-- Back to top button -->
     <div class="btt-button shadow-sm rounded-0 border border-black">
         <a class="btt-link d-flex h-100" aria-label="Back to top">
             <i class="fas fa-arrow-up text-black mx-auto my-auto"></i>
@@ -135,12 +142,14 @@
 {% block postloadjs %}
     {{ block.super }}
     <script>
-		$('.btt-link').click(function(e) {
-			window.scrollTo(0,0)
-		})
-	</script>
+        // Back to top button functionality
+        $('.btt-link').click(function(e) {
+            window.scrollTo(0,0)
+        })
+    </script>
     
     <script>
+        // Sort selector functionality
         $('#sort-selector').change(function() {
             var selector = $(this);
             var currentUrl = new URL(window.location);
