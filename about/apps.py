@@ -1,3 +1,6 @@
+"""
+Module for accessing application configuration settings.
+"""
 from django.apps import AppConfig
 
 

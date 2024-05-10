@@ -1,3 +1,6 @@
+"""
+Module for working with Django models.
+"""
 from django.db import models
 
 

@@ -1,3 +1,6 @@
+"""
+Module for importing modules commonly used in Django views.
+"""
 from django.contrib import messages
 from django.shortcuts import render, redirect, reverse, HttpResponse, get_object_or_404
 from products.models import Product

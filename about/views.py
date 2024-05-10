@@ -1,3 +1,6 @@
+"""
+Module for rendering templates in Django views.
+"""
 from django.shortcuts import render
 
 # Create your views here.
