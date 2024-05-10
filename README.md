@@ -24,42 +24,46 @@ In essence, the website prioritizes simplicity and transparency, aiming to provi
     - [Site Goals](#site-goals)
     - [User Goals](#user-goals)
 2. [User Stories](#user-stories)
-3. [Wireframes](#wireframes)
+3. [E-Commerce Business Model and Marketing Strategies](#e-commerce-business-model-and-marketing-strategies)
+    - [Business Model Overview](#business-model-overview)
+    - [Business Model Components](#business-model-components)
+    - [Marketing Strategies](#marketing-strategies)
+4. [Wireframes](#wireframes)
     - [Desktop wireframes](#desktop-wireframes)
     - [Mobile wireframes](#mobile-wireframes)
-4. [Layout and Styling](#layout-and-styling)
+5. [Layout and Styling](#layout-and-styling)
     - [Bootstrap](#bootstrap)
-5. [Media queries](#media-queries)
-6. [Imagery](#imagery)
-7. [Colour Scheme](#colour-scheme)
-8. [Typography](#typography)
-9. [Icons](#icons)
-10. [Favicon](#favicon)
-11. [Loading spinner](#loading-spinner)
-12. [Scope](#scope)
+6. [Media queries](#media-queries)
+7. [Imagery](#imagery)
+8. [Colour Scheme](#colour-scheme)
+9. [Typography](#typography)
+10. [Icons](#icons)
+11. [Favicon](#favicon)
+12. [Loading spinner](#loading-spinner)
+13. [Scope](#scope)
     - [Minimum Viable Product](#minimum-viable-product)
     - [Additional Features](#additional-features)
     - [Future Ideas](#future-ideas)
-13. [Python Functionality using Django](#python-functionality-using-django)
-14. [Existing Features](#existing-features)
-15. [Tools And Technologies Used](#tools-and-technologies-used)
-16. [Agile Development Process](#agile-development-process)
+14. [Python Functionality using Django](#python-functionality-using-django)
+15. [Existing Features](#existing-features)
+16. [Tools And Technologies Used](#tools-and-technologies-used)
+17. [Agile Development Process](#agile-development-process)
     - [GitHub Projects](#gitHub-projects)
     - [GitHub Issues](#gitHub-issues)
     - [MoSCoW Prioritization](#moSCoW-prioritization)
-17. [Ecommerce Business Model](#ecommerce-business-model)
-18. [Sitemap](#sitemap)
-19. [Newsletter Marketing](#newsletter-marketing)
-20. [Testing](#testing)
-21. [Deployment](#deployment)
+18. [Ecommerce Business Model](#ecommerce-business-model)
+19. [Sitemap](#sitemap)
+20. [Newsletter Marketing](#newsletter-marketing)
+21. [Testing](#testing)
+22. [Deployment](#deployment)
     - [Amazon AWS](#amazon-aws)
     - [Stripe API](#stripe-api)
     - [Gmail](#gmail)
     - [Heroku Deployment](#heroku-deployment)
     - [Local Deployment](#local-deployment)
-22. [Cloning](#cloning)
+23. [Cloning](#cloning)
     - [Forking](#forking)
-23. [Credits](#credits)
+24. [Credits](#credits)
     - [Acknowledgements](#acknowledgements)
 
 
@@ -97,6 +101,34 @@ To help with the development of this project, I created user stories to map out 
 View a full list of user stories [here](https://github.com/users/hughes84/projects/3).
 
 View the Sprints here [here](https://github.com/hughes84/Premwear-league/milestones).
+
+[Back to Table of Contents](#table-of-contents)
+
+# E-Commerce Business Model and Marketing Strategies
+
+## Business Model Overview
+
+Our e-commerce platform operates as a retail store specializing in football (soccer) gear and merchandise. We offer a wide range of products including jerseys, shorts, socks, hats, and flags, catering to football enthusiasts, athletes, and fans worldwide.
+
+## Business Model Components
+
+- Product Selection: We curate a diverse range of high-quality football gear from renowned brands and manufacturers.
+- Online Platform: Our website serves as the primary storefront, providing customers with a user-friendly interface for browsing and purchasing products.
+- Order Fulfillment: We manage order processing, packaging, and shipping to ensure timely delivery of products to customers.
+- Customer Service: Our dedicated customer support team handles inquiries, resolves issues, and ensures customer satisfaction.
+
+## Marketing Strategies
+
+- Search Engine Optimization (SEO):
+Optimizing website content and metadata for relevant keywords to improve visibility on search engines like Google.
+- Social Media Marketing:
+Leveraging platforms like Facebook to showcase products, engage with customers, and drive traffic to the website.
+- Email Marketing:
+Building and nurturing a subscriber list to send out newsletters, promotions, and product updates to interested customers..
+- Seasonal Promotions:
+Offering special discounts, deals, and promotions during key football events such as major tournaments, league matches, and holiday seasons.
+- Continuous Improvement:
+We continuously analyze customer feedback, monitor market trends, and evaluate the performance of our marketing strategies to adapt and optimize our approach for sustainable growth and success in the competitive e-commerce landscape.
 
 [Back to Table of Contents](#table-of-contents)
 
