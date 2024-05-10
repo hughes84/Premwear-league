@@ -1,8 +1,10 @@
 <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
+    <!-- Form for adjusting bag quantity -->
     {% csrf_token %}
     <div class="form-group">
         <div class="input-group">
             <div class="input-group-prepend">
+                <!-- Button to subtract quantity -->
                 <button aria-label="Subtract from bag" class="decrement-qty btn btn-sm btn-black rounded-0" 
                     data-item_id="{{ item.item_id }}" id="decrement-qty_{{ item.item_id }}">
                     <span>
@@ -10,11 +12,13 @@
                     </span>
                 </button>
             </div>
+            <!-- Input field for quantity -->
             <input class="form-control form-control-sm qty_input" type="number"
                 name="quantity" value="{{ item.quantity }}" min="1" max="99"
                 data-item_id="{{ item.item_id }}"
                 id="id_qty_{{ item.item_id }}">
             <div class="input-group-append">
+                <!-- Button to add quantity -->
                 <button aria-label="Add to bag" lass="increment-qty btn btn-sm btn-black rounded-0"
                     data-item_id="{{ item.item_id }}" id="increment-qty_{{ item.item_id }}">
                     <span>
@@ -22,11 +26,14 @@
                     </span>
                 </button>
             </div>
+            <!-- Hidden input for product size if applicable -->
             {% if item.product.has_sizes %}
                 <input type="hidden" name="product_size" value="{{ item.size }}">
             {% endif %}
         </div>
     </div>
 </form>
+<!-- Button to update bag -->
 <button class="update-link btn-success btn-sm text-black">Update</button>
+<!-- Button to remove item from bag -->
 <button class="remove-item btn-danger float-right btn-sm text-white" id="remove_{{ item.item_id }}" data-product_size="{{ item.size }}">Remove</button>
