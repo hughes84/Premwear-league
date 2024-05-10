@@ -20,7 +20,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib.sitemaps.views import sitemap
 from products.sitemaps import ProductSitemap
-from .views import handler404
+
 
 from .sitemaps import StaticViewSitemap
 
@@ -50,5 +50,3 @@ urlpatterns = [
         name="django.contrib.sitemaps.views.sitemap",
     ),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-
-handler404 = "premwear_league.views.handler404"
