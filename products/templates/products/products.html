@@ -23,7 +23,7 @@
                         <span class="p-2 mt-2 badge badge-white text-black rounded-0 border border-dark">{{ c.friendly_name }}</span>
                     </a>
                 {% endfor %}
-                <hr class="w-50 mb-1">
+                <hr class="w-100 mb-1">
             </div>
         </div>
         <div class="row">
@@ -70,19 +70,18 @@
                                 {% endif %}
                                 {% if product.image %}
                                 <a href="{% url 'product_detail' product.id %}" aria-label="Product image">
-                                    <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+                                    <img class="card-img-top pt-5 img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
                                 </a>
                                 {% else %}
                                 <a href="{% url 'product_detail' product.id %}" aria-label="Product image placeholder">
-                                    <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                                    <img class="card-img-top pt-5 img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
                                 </a>
                                 {% endif %}
-                                <div class="card-body pb-0">
-                                    <p class="mb-0">{{ product.name }}</p>
-                                </div>
-                                <div class="card-footer bg-white pt-0 border-0 text-left">
+
+                                <div class="card-footer mt-auto bg-white pt-0 border-0 text-left">
                                     <div class="row">
                                         <div class="col">
+                                            <p class="mb-0">{{ product.name }}</p>
                                             <p class="lead mb-0 text-left font-weight-bold">€{{ product.price }}</p>
                                             {% if product.category %}
                                             <p class="small mt-1 mb-0">
