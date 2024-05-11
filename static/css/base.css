@@ -1,7 +1,9 @@
+/* Set the height of the html element to 100% */
 html {
     height: 100%;
 }
 
+/* Styles for the homepage */
 .homepage-styles {
     background: url('/media/prem_top.png') no-repeat center center;
     background-size: cover;
@@ -11,13 +13,22 @@ html {
     font-family: 'Lato';
 }
 
+/* Styles for the account dropdown */
+.account-dropdown {
+    margin-left: -30px;
+}
+
+/* Styles for the nl_form label */
 #nl_form label {
     color: white;
 }
 
+/* Styles for the main element */
 main {
     padding-bottom: 100px;
 }
+
+/* Styles for the home overlay */
 .home-overlay {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.614);
@@ -25,7 +36,7 @@ main {
     text-align: center;
 }
 
-/* from Bulma */
+/* Styles for the icon */
 .icon {
     align-items: center;
     display: inline-flex;
@@ -34,31 +45,37 @@ main {
     width: 1.5rem;
 }
 
+/* Styles for the logo font */
 .logo-font {
     text-transform: uppercase;
 }
 
+/* Styles for the main logo link */
 .main-logo-link {
     width: fit-content;
 }
 
+/* Styles for the shop now button */
 .shop-now-button {
     background: black;
     color: white;
     min-width: 260px;
 }
 
+/* Styles for the black button */
 .btn-black {
     background: black;
     color: white;
 }
 
+/* Styles for the outline black button */
 .btn-outline-black {
     background: white;
     color: black !important; /* use important to override link colors for <a> elements */
     border: 1px solid black;
 }
 
+/* Styles for the hover, active, and focus states of the outline black button */
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
@@ -66,7 +83,7 @@ main {
     color: white !important;
 }
 
-
+/* Styles for the hover, active, and focus states of the shop now button and black button */
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
@@ -77,33 +94,39 @@ main {
     color: white;
 }
 
+/* Styles for the text color black */
 .text-black {
     color: #000 !important;
 }
 
+/* Styles for the black border */
 .border-black {
     border: 1px solid black !important;
 }
 
+/* Styles for the black background */
 .bg-black {
     background: #000 !important;
 }
 
+/* Styles for the overlay */
 .overlay {
-	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-	position: fixed;
-	background: white;
-	z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: white;
+    z-index: -1;
 }
 
+/* Styles for the hover state of the category badge */
 a.category-badge > span.badge:hover {
     background: #212529 !important;
     color: #fff !important;
 }
 
+/* Styles for the back-to-top button */
 .btt-button {
     height: 42px;
     width: 42px;
@@ -112,14 +135,14 @@ a.category-badge > span.badge:hover {
     right: 10px;
 }
 
+/* Styles for the links */
 .btt-link,
 .update-link,
 .remove-item {
     cursor: pointer;
 }
 
-/* ------------------------------- bootstrap toasts */
-
+/* Styles for the message container */
 .message-container {
     position: fixed;
     top: 72px;
@@ -127,15 +150,17 @@ a.category-badge > span.badge:hover {
     z-index: 99999999999;
 }
 
+/* Styles for the custom toast */
 .custom-toast {
     overflow: visible;
 }
 
+/* Styles for the toast capper */
 .toast-capper {
     height: 2px;
 }
 
-/* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
+/* Styles for the arrow up */
 .arrow-up {
     width: 0; 
     height: 0; 
@@ -180,13 +205,14 @@ a.category-badge > span.badge:hover {
     border-bottom-color: #343a40 !important;
 }
 
+/* Styles for the bag notification wrapper */
 .bag-notification-wrapper {
     height: 100px;
     overflow-x: hidden;
     overflow-y: auto;
 }
 
-/* -------------------------------- Media Queries */
+/* Media Queries */
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
@@ -197,28 +223,33 @@ a.category-badge > span.badge:hover {
 
 /* Allauth form formatting */
 
+/* Styles for the allauth form inner content paragraphs */
 .allauth-form-inner-content p {
     margin-top: 1.5rem; /* mt-4 */
     color: #6c757d; /* text-secondary */
 }
 
+/* Styles for the allauth form inner content inputs */
 .allauth-form-inner-content input {
     border-color: #000;
     border-radius: 0;
 }
 
+/* Styles for the allauth form inner content labels */
 .allauth-form-inner-content label:not([for='id_remember']) {
     display: none;
 }
 
+/* Styles for the allauth form inner content input placeholders */
 .allauth-form-inner-content input::placeholder {
     color: #aab7c4;
 }
 
+/* Styles for the allauth form inner content buttons and submit inputs */
 .allauth-form-inner-content button,
 .allauth-form-inner-content input[type='submit'] {
-	/* btn */
-	display: inline-block;
+    /* btn */
+    display: inline-block;
     font-weight: 400;
     color: #fff;
     text-align: center;
@@ -238,25 +269,29 @@ a.category-badge > span.badge:hover {
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+/* Styles for the hover state of the allauth form inner content buttons and submit inputs */
 .allauth-form-inner-content button:hover,
-.allauth-form-inner-content input[type='submit']:hover {	
-	color: #fff;
+.allauth-form-inner-content input[type='submit']:hover {    
+    color: #fff;
     background-color: #222;
     border-color: #222;
 }
 
+/* Styles for the allauth form inner content links */
 .allauth-form-inner-content a {
-	color: #b81717; /* text-info */
+    color: #b81717; /* text-info */
     font-weight: 700;
 }
 
-/* Product Form */
+/* Styles for the product form */
 
+/* Styles for the file input button */
 .btn-file {
     position: relative;
     overflow: hidden;
 }
 
+/* Styles for the file input */
 .btn-file input[type="file"] {
     position: absolute;
     top: 0;
@@ -267,18 +302,20 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
+/* Styles for the custom checkbox */
 .custom-checkbox .custom-control-label::before {
     border-radius: 0;
     border-color: #dc3545;
 }
 
+/* Styles for the checked state of the custom checkbox */
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
     background-color: #dc3545;
     border-color: #dc3545;
     border-radius: 0;
 }
 
-/* fixed top navbar only on medium and up */
+/* Styles for the fixed top navbar on medium and up screens */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
         position: fixed;
@@ -293,7 +330,7 @@ a.category-badge > span.badge:hover {
     }
 }
 
-/* pad the top a bit when navbar is collapsed on mobile */
+/* Styles for the padding of the header container on mobile */
 @media (max-width: 991px) {
     .header-container {
         padding-top: 116px;
@@ -304,111 +341,149 @@ a.category-badge > span.badge:hover {
     }
 }
 
+/* Styles for the display-4, logo-font, and text-black classes */
 .display-4.logo-font.text-black {
     font-size: 2rem;
 }
 
+/* Styles for the nav-link */
 .nav-link {
     padding: 0.15rem;
 }
 
+/* Styles for the nav-link icon */
 .nav-link i.fa-lg {
     font-size: 1rem;
 }
 
+/* Styles for the navbar toggler */
 .navbar-toggler {
     padding: .6rem .6rem;
     font-size: 1rem;
 }
 
+/* Styles for the delivery banner h4 */
 #delivery-banner h4 {
     font-size: .9rem;
 }
 
+/* Styles for the rounded-0 buttons */
 .btn.btn-outline-black.rounded-0,
 .btn.btn-black.rounded-0 {
     padding: .375rem .375rem;
 }
 
+/* Styles for the rounded-0 buttons with btn-lg class */
 .btn.btn-outline-black.rounded-0.btn-lg,
 .btn.btn-black.rounded-0.btn-lg {
     padding: .375rem .375rem;
     font-size: .75rem;
 }
 
+/* Styles for the increment and decrement quantity buttons */
 .increment-qty, .decrement-qty {
     padding: .25rem .5rem !important;
 }
 
-/* Footer */
+/* Footer styles */
+
+/* Import the font-awesome library */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* Styles for the sections */
 section {
     padding: 60px 0;
 }
 
+/* Styles for the section title */
 section .section-title {
     text-align: center;
     color: #007b5e;
     margin-bottom: 50px;
     text-transform: uppercase;
 }
+
+/* Styles for the footer */
 #footer {
     background: #007b5e !important;
 }
+
+/* Styles for the footer h5 */
 #footer h5{
-	padding-left: 10px;
+    padding-left: 10px;
     border-left: 3px solid #eeeeee;
     padding-bottom: 6px;
     margin-bottom: 20px;
     color:#ffffff;
 }
+
+/* Styles for the footer links */
 #footer a {
     color: #ffffff;
     text-decoration: none !important;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
 }
+
+/* Styles for the social icons in the footer */
 #footer ul.social li{
-	padding: 3px 0;
+    padding: 3px 0;
 }
+
+/* Styles for the social icons in the footer */
 #footer ul.social li a i {
     margin-right: 5px;
-	font-size:20px;
-	-webkit-transition: .5s all ease;
-	-moz-transition: .5s all ease;
-	transition: .5s all ease;
+    font-size:20px;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
 }
+
+/* Styles for the hover state of the social icons in the footer */
 #footer ul.social li:hover a i {
-	font-size:30px;
-	margin-top:-10px;
+    font-size:30px;
+    margin-top:-10px;
 }
+
+/* Styles for the footer links */
 #footer ul.social li a,
 #footer ul.quick-links li a{
-	color:#ffffff;
+    color:#ffffff;
 }
+
+/* Styles for the hover state of the footer links */
 #footer ul.social li a:hover{
-	color:#eeeeee;
+    color:#eeeeee;
 }
+
+/* Styles for the footer quick links */
 #footer ul.quick-links li{
-	padding: 3px 0;
-	-webkit-transition: .5s all ease;
-	-moz-transition: .5s all ease;
-	transition: .5s all ease;
+    padding: 3px 0;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
 }
+
+/* Styles for the hover state of the footer quick links */
 #footer ul.quick-links li:hover{
-	padding: 3px 0;
-	margin-left:5px;
-	font-weight:700;
+    padding: 3px 0;
+    margin-left:5px;
+    font-weight:700;
 }
+
+/* Styles for the footer quick links icons */
 #footer ul.quick-links li a i{
-	margin-right: 5px;
+    margin-right: 5px;
 }
+
+/* Styles for the hover state of the footer quick links icons */
 #footer ul.quick-links li:hover a i {
     font-weight: 700;
 }
 
+/* Styles for the footer h5 on small screens */
 @media (max-width:767px){
-	#footer h5 {
+    #footer h5 {
     padding-left: 0;
     border-left: transparent;
     padding-bottom: 0px;
